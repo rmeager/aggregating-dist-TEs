@@ -15,8 +15,8 @@
 if(exists("masterfile_run") == "FALSE"){
   rm(list = ls())
 }
-install.packages(rstan, coda, ggplot2, stargazer)
-library("rstan", "coda", "ggplot2", "stargazer")
+install.packages(rstan, coda, ggplot2, stargazer, data.table)
+library("rstan", "coda", "ggplot2", "stargazer", "data.table")
 
 # It is on you to set the working directory to the correct location 
 
@@ -250,24 +250,23 @@ ci_beta_1_profit_partial_pooling <- paste0("(", lower_ci_beta_1_profit_partial_p
 ci_beta_1_profit_partial_pooling <- matrix(ci_beta_1_profit_partial_pooling, nrow=1, ncol=10)
 ci_beta_1_profit_partial_pooling <- data.frame(ci_beta_1_profit_partial_pooling )
 median_beta_1_profit_partial_pooling <- data.frame(median_beta_1_profit_partial_pooling)
-install.packages("data.table")
-library(data.table)
 partial_pooling_beta_1_results_profit <- rbindlist(list(median_beta_1_profit_partial_pooling, ci_beta_1_profit_partial_pooling))
 colnames(partial_pooling_beta_1_results_profit) <- c( "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
 
 saveRDS(partial_pooling_beta_1_results_profit, "output/partial_pooling_beta_1_table_profit.rds")
 
+fig_scale <- 0.4 # because the AER template will not let you scale it in tex 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_profit_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_profit_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5*fig_scale) +
   ggtitle("Posterior quantile effects on profit") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-100,400) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-100,400) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 # expenditures # 
@@ -279,15 +278,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_expenditures_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_expenditures_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on expenditures") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-100,400) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-100,400) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 
@@ -300,125 +299,19 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_revenues_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_revenues_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on revenues") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-100,400) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-100,400) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 
-### NOW THE FULL POOLING RESULTS (THESE WERE ONLY USED IN TABLES 1 and 2 OF AER VERSION, NO FIGURES)
-
-## FOR THE 1 TAIL OUTCOMES
-
-## revenues! 
-
-codafit_stan_draws <- codafit_stan_draws_revenues_full_pooling
-S <- dim(codafit_stan_draws)[1]
-M <- 2 # mixture components
-component_probs <- matrix(NA,nrow=S,ncol=M)
-quantile_vec <- seq(0.05, 0.95,0.1)
-N <- length(quantile_vec)
-quantile_value_output_control <- matrix(NA, nrow=S, ncol=N)
-quantile_value_output_treatment <- matrix(NA, nrow=S, ncol=N)
-quantile_value_output_difference <- matrix(NA, nrow=S, ncol=N)
-
-
-for(s in 1:S){
-  
-  control_logmean <- (codafit_stan_draws[s,"mu[1]"])
-  treatment_logmean <- (codafit_stan_draws[s,"mu[1]"] + codafit_stan_draws[s,"tau[1]"])
-  control_logsd <- exp(codafit_stan_draws[s,"sigma_control[1]"])
-  treatment_logsd <- exp(codafit_stan_draws[s,"sigma_control[1]"] + codafit_stan_draws[s,"sigma_TE[1]"])
-  control_logit_params <- codafit_stan_draws[s,c("beta_full[1,1]", "beta_full[2,1]")]
-  control_probs <- convert_logit_2_prob(control_logit_params)
-  treatment_logit_params <- codafit_stan_draws[s,c("beta_full[1,2]", "beta_full[2,2]")]
-  treatment_probs <- convert_logit_2_prob(control_logit_params + treatment_logit_params)
-  
- 
-  
-  for(n in 1:N){
-    
-    u <- quantile_vec[n]
-    if(u < control_probs[1]){ quantile_value_output_control[s,n] <-  0 }
-    if(u > control_probs[1]){ quantile_value_output_control[s,n] <-  qlnorm(((u-control_probs[1])/control_probs[2]), meanlog = control_logmean, sdlog = control_logsd, lower.tail = TRUE, log.p = FALSE) }
-    if(u < treatment_probs[1]){ quantile_value_output_treatment[s,n] <-  0 }
-    if(u > treatment_probs[1]){ quantile_value_output_treatment[s,n] <-  qlnorm(((u-treatment_probs[1])/treatment_probs[2]), meanlog = treatment_logmean, sdlog = treatment_logsd, lower.tail = TRUE, log.p = FALSE)  }
-    
-  } # close forloop indexed by N 
-  
-}
-quantile_value_output_difference <-  quantile_value_output_treatment -  quantile_value_output_control
-
-
-quantile_value_output_control_mean <- apply(quantile_value_output_control,2,mean)
-quantile_value_output_treatment_mean <- apply(quantile_value_output_treatment,2,mean)
-quantile_value_output_difference_mean <- apply(quantile_value_output_difference,2,mean)
-
-
-
-revenues_recovered_quantile_differences <- apply(quantile_value_output_difference,2,get_posterior_intervals_function)
-revenues_recovered_quantile_control <- apply(quantile_value_output_control,2,get_posterior_intervals_function)
-revenues_recovered_quantile_treatment <- apply(quantile_value_output_treatment,2,get_posterior_intervals_function)
-
-# for expenditures
-codafit_stan_draws <- codafit_stan_draws_expenditures_full_pooling
-S <- dim(codafit_stan_draws)[1]
-M <- 2 # mixture components
-component_probs <- matrix(NA,nrow=S,ncol=M)
-quantile_vec <- seq(0.05, 0.95,0.1)
-N <- length(quantile_vec)
-quantile_value_output_control <- matrix(NA, nrow=S, ncol=N)
-quantile_value_output_treatment <- matrix(NA, nrow=S, ncol=N)
-
-quantile_value_output_difference <- matrix(NA, nrow=S, ncol=N)
-
-
-
-for(s in 1:S){
-  
-  control_logmean <- (codafit_stan_draws[s,"mu[1]"])
-  treatment_logmean <- (codafit_stan_draws[s,"mu[1]"] + codafit_stan_draws[s,"tau[1]"])
-  control_logsd <- exp(codafit_stan_draws[s,"sigma_control[1]"])
-  treatment_logsd <- exp(codafit_stan_draws[s,"sigma_control[1]"] + codafit_stan_draws[s,"sigma_TE[1]"])
-  control_logit_params <- codafit_stan_draws[s,c("beta_full[1,1]", "beta_full[2,1]")]
-  control_probs <- convert_logit_2_prob(control_logit_params)
-  treatment_logit_params <- codafit_stan_draws[s,c("beta_full[1,2]", "beta_full[2,2]")]
-  treatment_probs <- convert_logit_2_prob(control_logit_params + treatment_logit_params)
-  
-
-  
-  for(n in 1:N){
-    
-    u <- quantile_vec[n]
-    if(u < control_probs[1]){ quantile_value_output_control[s,n] <-  0 }
-    if(u > control_probs[1]){ quantile_value_output_control[s,n] <-  qlnorm(((u-control_probs[1])/control_probs[2]), meanlog = control_logmean, sdlog = control_logsd, lower.tail = TRUE, log.p = FALSE) }
-    if(u < treatment_probs[1]){ quantile_value_output_treatment[s,n] <-  0 }
-    if(u > treatment_probs[1]){ quantile_value_output_treatment[s,n] <-  qlnorm(((u-treatment_probs[1])/treatment_probs[2]), meanlog = treatment_logmean, sdlog = treatment_logsd, lower.tail = TRUE, log.p = FALSE)  }
-    
-  } # close forloop indexed by N 
-  
-}
-quantile_value_output_difference <-  quantile_value_output_treatment -  quantile_value_output_control
-
-
-quantile_value_output_control_mean <- apply(quantile_value_output_control,2,mean)
-quantile_value_output_treatment_mean <- apply(quantile_value_output_treatment,2,mean)
-expenditures_quantile_value_output_difference_mean <- apply(quantile_value_output_difference,2,mean)
-
-
-
-expenditures_recovered_quantile_differences <- apply(quantile_value_output_difference,2,get_posterior_intervals_function)
-expenditures_recovered_quantile_control <- apply(quantile_value_output_control,2,get_posterior_intervals_function)
-expenditures_recovered_quantile_treatment <- apply(quantile_value_output_treatment,2,get_posterior_intervals_function)
-
-
-### FOR PROFIT
+### NOW THE FULL POOLING RESULTS FOR PROFIT 
 
 
 codafit_stan_draws <- codafit_stan_draws_profit_full_pooling
@@ -481,12 +374,7 @@ profit_recovered_quantile_treatment <- apply(quantile_value_output_treatment,2,g
 
 
 
-
-
-
-
-
-### NOW THE GRAPHICS ###
+### NOW THE TABLE INPUT ###
 
 # PROFIT # 
 # make ribbon plot for posterior 
@@ -503,100 +391,10 @@ ci_beta_1_profit_full_pooling <- paste0("(", lower_ci_beta_1_profit_full_pooling
 ci_beta_1_profit_full_pooling <- matrix(ci_beta_1_profit_full_pooling, nrow=1, ncol=10)
 ci_beta_1_profit_full_pooling <- data.frame(ci_beta_1_profit_full_pooling )
 median_beta_1_profit_full_pooling <- data.frame(median_beta_1_profit_full_pooling)
-install.packages("data.table")
-library(data.table)
 full_pooling_beta_1_results_profit <- rbindlist(list(median_beta_1_profit_full_pooling, ci_beta_1_profit_full_pooling))
 colnames(full_pooling_beta_1_results_profit) <- c( "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
 
 saveRDS(full_pooling_beta_1_results_profit, "output/full_pooling_beta_1_table_profit.rds")
-
-
-posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_profit_full_pooling_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling posterior quantile effects on profit") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-430,500) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-
-pdf("output/posterior_parent_quantile_TEs_profit_full_pooling_compare_predictive_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling Model posterior quantile effects on profit") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-3000,3000) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-
-# expenditures # 
-# make ribbon plot for posterior 
-quantiles_list <- quantile_vec
-posterior_beta_data <- t(rbind(expenditures_recovered_quantile_differences, expenditures_quantile_value_output_difference_mean  ))
-posterior_beta_data <- data.frame(posterior_beta_data, quantiles_list)
-colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "quantiles_list")
-
-
-posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_expenditures_full_pooling_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling posterior quantile effects on expenditures") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-120,475) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-pdf("output/posterior_parent_quantile_TEs_expenditures_full_pooling_compare_predictive_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling posterior quantile effects on expenditures") +
-  theme(plot.title = element_text(size = 14)) + xlim(0.05,0.95) + ylim(-1500,10000) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-
-
-
-# revenues # 
-# make ribbon plot for posterior 
-quantiles_list <- quantile_vec
-posterior_beta_data <- t(rbind(revenues_recovered_quantile_differences, quantile_value_output_difference_mean  ))
-posterior_beta_data <- data.frame(posterior_beta_data, quantiles_list)
-colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "quantiles_list")
-
-
-posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_revenues_full_pooling_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling posterior quantile effects on revenues") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-100,400) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-
-
-pdf("output/posterior_parent_quantile_TEs_revenues_full_pooling_compare_predictive_lognormal.pdf", width=6.5, height=6)
-posterior_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "dark green", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "dark green", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark green", size = 1.5) +
-  ggtitle("Full Pooling posterior quantile effects on revenues") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-2000,10100) +
-  xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
 
 
 ##### POSTERIOR PREDICTIVE MODEL QUANTILE COMPUTATION 
@@ -810,15 +608,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_predicted_quantile_TEs_profit_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_predicted_quantile_TEs_profit_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior predicted quantile effects on profit") +
   theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-1500,6000) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 # expenditures # 
@@ -830,15 +628,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_predicted_quantile_TEs_expenditures_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_predicted_quantile_TEs_expenditures_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior predicted quantile effects on expenditures") +
-  theme(plot.title = element_text(size = 14)) + xlim(0.05,0.95) + ylim(-2500,10600) +
+  theme(plot.title = element_text(size = fig_scale*14)) + xlim(0.05,0.95) + ylim(-2500,10600) +
   xlab("Quantiles") +ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 
@@ -851,14 +649,14 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_predicted_quantile_TEs_revenues_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_predicted_quantile_TEs_revenues_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior predicted quantile effects on revenues") +
-  theme(plot.title = element_text(size = 14)) + xlim(0.05,0.95)  + ylim(-2525,10100) +
+  theme(plot.title = element_text(size = fig_scale*14)) + xlim(0.05,0.95)  + ylim(-2525,10100) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
