@@ -16,3 +16,4 @@ if(rerun_MCMC == TRUE){
 
 source("R code/graphics and computation of quantiles from log normal models business variables.R")
 source("R code/graphics for no pooling models and site specific output lognormal.R")
+source("R code/graphics and computation of quantiles from log normal consumption variables.R")
