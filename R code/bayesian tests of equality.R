@@ -1,7 +1,4 @@
 
-
-
-
 # Rachael Meager
 # First Version: Feb 2020
 
