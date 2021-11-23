@@ -16,7 +16,7 @@ if(exists("masterfile_run") == "FALSE"){
   rm(list = ls())
 }
 
-installation_needed  <- TRUE
+installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
                   "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
@@ -180,19 +180,6 @@ posterior_k_beta_data$countries_repeated <- factor(posterior_k_beta_data$countri
 
 colnames(posterior_k_beta_data) <- c( "2.5%", "25%", "50%", "75%", "97.5%", "quantiles_repeated", "countries_repeated")
 
-posterior_k_beta_data_plot <- ggplot(posterior_k_beta_data, aes(x = (posterior_k_beta_data[,"quantiles_repeated"]), y = posterior_k_beta_data[,"50%"]))
-pdf("output/posterior_k_quantile_TEs_consumption_lognormal.pdf", width=6, height=6)
-posterior_k_beta_data_plot +
-  geom_ribbon(aes(ymin = posterior_k_beta_data[,"2.5%"], ymax =posterior_k_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
-  geom_ribbon(aes(ymin = posterior_k_beta_data[,"25%"], ymax = posterior_k_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_k_beta_data[,"50%"]),color = "dark red", size = 1) +
-  facet_grid(countries_repeated~., scales="free") +
-  ggtitle("Posterior quantile effects on consumption for each country") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95)  +
-  xlab("Quantiles") + ylab("Quantile treatment effect (USD PPP per fortnight)")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
-dev.off()
-
 
 # now for a tabular bit
 median_quantile_effects_consumption_partial_pooling <- round(t(consumption_recovered_quantile_differences[3,,]),1)
@@ -202,8 +189,6 @@ ci_quantile_effects_consumption_partial_pooling <- paste0("(", lower_ci_quantile
 ci_quantile_effects_consumption_partial_pooling <- matrix(ci_quantile_effects_consumption_partial_pooling, nrow=K, ncol=10)
 ci_quantile_effects_consumption_partial_pooling <- data.frame(country,ci_quantile_effects_consumption_partial_pooling )
 median_quantile_effects_consumption_partial_pooling <- data.frame(country, median_quantile_effects_consumption_partial_pooling)
-install.packages("data.table")
-library(data.table)
 partial_pooling_results_consumption <- rbindlist(list(median_quantile_effects_consumption_partial_pooling, ci_quantile_effects_consumption_partial_pooling))[order(country)]
 colnames(partial_pooling_results_consumption) <- c("Country", "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
 
@@ -353,10 +338,7 @@ sink("output/table_consumption_full_pooling.txt")
 stargazer(full_pooling_results_consumption, summary = FALSE)
 dev.off
 
-## now the old mosteller quantiles model 
-data_baggr <- data.frame("group" = data_consumption$site, "outcome" = data_consumption$consumption, 
-                         "treatment" = data_consumption$treatment)
-baggr(data_baggr, model = "quantiles")
+
 
 
 
