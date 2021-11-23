@@ -8,11 +8,6 @@
 # Analysis needs to be done before you can run this, obviously
 # I sincerely apologise for the atrocious indenting here. I would like to especially apologise to Jonathan Huggins who taught me better.
 
-# maybe this is your working directory: 
-# setwd("/Users/rachaelmeager/Dropbox/Research Work/MIT IMPRINT/Research work/aggregating distributional effects/meager-dist-TE-paper-AER/")
-
-# but if not you should change it to your one
-
 ### Preliminaries and Data Intake ###
 
 # clear the workspace to avoid gremlins and past globals from past irresponsible scripts
@@ -20,8 +15,8 @@
 if(exists("masterfile_run") == "FALSE"){
   rm(list = ls())
 }
-
-library(coda, ggplot2, stargazer)
+install.packages(rstan, coda, ggplot2, stargazer)
+library("rstan", "coda", "ggplot2", "stargazer")
 
 # It is on you to set the working directory to the correct location 
 
@@ -30,7 +25,7 @@ load("output/microcredit_profit_lognormal_tailored_hierarchical_pdf_output_5000_
 stan_fit_table_profit <- stan_fit_table
 stan_fit_profit <- stan_fit
 codafit_stan_draws_profit <- as.matrix(stan2coda(stan_fit_profit))
-data_split_profit <- data_split
+nodata_split_profit <- data_split
 data_profit <- data
 load("output/microcredit_expenditures_lognormal_tailored_hierarchical_pdf_output_5000_iters.RData")
 stan_fit_table_expenditures <- stan_fit_table
@@ -49,14 +44,6 @@ load("output/microcredit_profit_lognormal_tailored_full_pooling_pdf_output_4000_
 stan_fit_table_profit_full_pooling <- stan_fit_table
 stan_fit_profit_full_pooling <- stan_fit
 codafit_stan_draws_profit_full_pooling <- as.matrix(stan2coda(stan_fit_profit_full_pooling))
-load("output/microcredit_expenditures_lognormal_tailored_full_pooling_pdf_output_5000_iters.RData")
-stan_fit_table_expenditures_full_pooling <- stan_fit_table
-stan_fit_expenditures_full_pooling <- stan_fit
-codafit_stan_draws_expenditures_full_pooling <- as.matrix(stan2coda(stan_fit_expenditures_full_pooling))
-load("output/microcredit_revenues_lognormal_tailored_full_pooling_pdf_output_4000_iters.RData")
-stan_fit_table_revenues_full_pooling <- stan_fit_table
-stan_fit_revenues_full_pooling <- stan_fit
-codafit_stan_draws_revenues_full_pooling <- as.matrix(stan2coda(stan_fit_revenues_full_pooling))
 
 ### FUNCTIONS I WILL NEED
 
