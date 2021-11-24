@@ -18,6 +18,6 @@ if(rerun_MCMC == TRUE){
 source("R code/graphics and computation of quantiles from log normal models business variables.R")
 source("R code/graphics for no pooling models and site specific output lognormal.R") 
 # produces tables 1 and 2
-source("R code/graphics and computation of quantiles from log normal consumption variables.R") # rm token is here. the above is fully checked. 
+source("R code/graphics and computation of quantiles from log normal consumption variables.R")
 # produces figure 3
-source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R")
+source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R")  # rm token is here. the above is fully checked. 

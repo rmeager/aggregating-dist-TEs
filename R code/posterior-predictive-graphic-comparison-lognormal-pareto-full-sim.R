@@ -389,7 +389,8 @@ p_rev <- ggplot(rev_dataframe, aes(x=x_axis, y=revenues_quantiles, group=type)) 
   geom_line(aes(color=type, fill=type), alpha = 1)+
   geom_point(aes(color=type)) +
    coord_cartesian(ylim=c(0, 1000)) + xlab("Quantiles") +ylab("") +
-  ggtitle("Posterior Predictive Distributions of Revenues Data")
+  ggtitle("Posterior Predictive Distributions of Revenues Data") +
+  theme(plot.title = element_text(size = fig_scale*16))
 p_rev
 filename_as_string <- "output/posterior_predictive_revenues"
 myfile <- paste0(filename_as_string,".pdf")
@@ -406,7 +407,8 @@ p_exp <- ggplot(rev_dataframe, aes(x=x_axis, y=expenditures_quantiles, group=typ
   geom_line(aes(color=type, fill=type), alpha = 1)+
   geom_point(aes(color=type)) +
   coord_cartesian(ylim=c(0, 1000)) + xlab("Quantiles") +ylab("") +
-  ggtitle("Posterior Predictive Distributions of Expenditures Data")
+  ggtitle("Posterior Predictive Distributions of Expenditures Data") +
+  theme(plot.title = element_text(size = fig_scale*16))
 p_exp
 filename_as_string <- "output/posterior_predictive_expenditures"
 myfile <- paste0(filename_as_string,".pdf")
@@ -424,7 +426,8 @@ p_profit <- ggplot(profit_dataframe, aes(x=x_axis, y=profit_quantiles, group=typ
   geom_line(aes(color=type, fill=type), alpha = 1)+
   geom_point(aes(color=type)) +
   coord_cartesian(ylim=c(-200, 1000)) + xlab("Quantiles") +ylab("") +
-  ggtitle("Posterior Predictive Distributions of Profit Data")
+  ggtitle("Posterior Predictive Distributions of Profit Data") +
+  theme(plot.title = element_text(size = fig_scale*16))
 p_profit
 filename_as_string <- "output/posterior_predictive_profit"
 myfile <- paste0(filename_as_string,".pdf")
