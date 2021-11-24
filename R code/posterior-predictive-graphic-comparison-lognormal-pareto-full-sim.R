@@ -19,13 +19,12 @@ if(exists("masterfile_run") == "FALSE"){
 installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
-                  "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM")
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "stargazer")
 if(installation_needed){for (p in package_list) {install.packages(p, repos='http://cran.us.r-project.org')}}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
 
 
-# you may want to use this, but then again, you may not: setwd("/Users/rachaelmeager/Dropbox/research work/MIT IMPRINT/Research work/aggregating distributional effects/")
-
+fig_scale = 0.4
 
 # Load data
 load("output/microcredit_profit_lognormal_tailored_hierarchical_pdf_output_5000_iters.RData")
@@ -394,7 +393,7 @@ p_rev <- ggplot(rev_dataframe, aes(x=x_axis, y=revenues_quantiles, group=type)) 
 p_rev
 filename_as_string <- "output/posterior_predictive_revenues"
 myfile <- paste0(filename_as_string,".pdf")
-dev.copy(pdf,myfile, width = 10, height = 6)
+dev.copy(pdf,myfile, width = fig_scale*10, height = fig_scale*6)
 dev.off()
 
 expenditures_quantiles <- c(quantile(data$expenditures[data$treatment==0], seq(0.05, 0.95, 0.1), na.rm = TRUE),
@@ -411,7 +410,7 @@ p_exp <- ggplot(rev_dataframe, aes(x=x_axis, y=expenditures_quantiles, group=typ
 p_exp
 filename_as_string <- "output/posterior_predictive_expenditures"
 myfile <- paste0(filename_as_string,".pdf")
-dev.copy(pdf,myfile, width = 10, height = 6)
+dev.copy(pdf,myfile, width = fig_scale*10, height = fig_scale*6)
 dev.off()
 
 
@@ -429,6 +428,6 @@ p_profit <- ggplot(profit_dataframe, aes(x=x_axis, y=profit_quantiles, group=typ
 p_profit
 filename_as_string <- "output/posterior_predictive_profit"
 myfile <- paste0(filename_as_string,".pdf")
-dev.copy(pdf,myfile, width = 10, height = 6)
+dev.copy(pdf,myfile, width = fig_scale*10, height = fig_scale*6)
 dev.off()
 
