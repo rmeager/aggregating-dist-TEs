@@ -18,7 +18,7 @@ if(exists("masterfile_run") == "FALSE"){
 installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
-                  "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
                   "boot", "gridExtra")
 if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
@@ -156,7 +156,7 @@ for(k in 1:K){
 
 
 # tabular bit
-
+country <- c("Mexico", "Mongolia", "Bosnia", "India", "Morocco", "Philippines", "Ethiopia")
 median_quantile_effects_profit_no_pooling <- round(t(profit_recovered_quantile_differences[3,,]),1)
 lower_ci_quantile_effects_profit_no_pooling <- round(t(profit_recovered_quantile_differences[1,,]),1)
 upper_ci_quantile_effects_profit_no_pooling <- round(t(profit_recovered_quantile_differences[5,,]),1) 

@@ -1,4 +1,4 @@
-# graphics and quantile computation for the lognormals 
+# graphics and quantile computation for the lognormals business vars 
 # Rachael Meager
 # First Version: April 2018 
 # This Version: August 2021 
@@ -10,9 +10,14 @@
 
 ### Preliminaries and Data Intake ###
 
+installation_needed  <- FALSE
+loading_needed <- TRUE
+package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "boot", "gridExtra", "stargazer", "data.table")
+if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
+if(loading_needed){lapply(package_list, require, character.only = TRUE)}
 
-install.packages(rstan, coda, ggplot2, stargazer, data.table)
-library("rstan", "coda", "ggplot2", "stargazer", "data.table")
 
 # It is on you to set the working directory to the correct location 
 
@@ -610,7 +615,7 @@ posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
   geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior predicted quantile effects on profit") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-1500,6000) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-1500,6000) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
   theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()

@@ -26,7 +26,7 @@ if(rerun_MCMC == TRUE){
 # produces figures 1 and 2
 source("R code/graphics and computation of quantiles from log normal models business variables.R", print.eval  = TRUE)
 source("R code/graphics for no pooling models and site specific output lognormal.R", print.eval  = TRUE) 
-source("R code/graphics and computation of quantiles from log normal consumption variables.R", print.eval  = TRUE)
+source("R code/graphics and computation of quantiles lognormal consumption variables.R", print.eval  = TRUE)
 # produces figure 3
 source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R", print.eval  = TRUE)  
 # produces figure 4
@@ -44,6 +44,6 @@ source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE)
 # produces table 3
 source("R code/bayesian tests of equality.R", print.eval = TRUE) 
 
-# Rm token is here. it is time for an omnibus test of the above. 
+# Rm token is here. passed the omnibus test. 
 
 ##### APPENDICES #####
