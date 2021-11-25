@@ -24,3 +24,6 @@ source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim
 # produces figure 4
 source("R code/graphics and computation of quantiles from PLN model.R")
 source("R code/graphics and computation of quantiles composite tail model.R") # rm token is here. the above is fully checked. 
+# produces figures 5 and 6 
+source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models consumption types pb split.R")
+source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models pb split.R")
