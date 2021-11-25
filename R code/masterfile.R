@@ -10,9 +10,31 @@
 # Only switch this to TRUE if you have Rstan working AND a very powerful computer OR a lot of time at your disposal. Caveat Emptor! 
 rerun_MCMC <- FALSE
 if(rerun_MCMC == TRUE){
-  source()
-  
-  
+  # main results 
+  source("R code/tailored-hierarchical-profit-log-normal-model-run.R")
+  source("R code/tailored-hierarchical-expenditures-log-normal-model-run.R")
+  source("R code/tailored-hierarchical-revenues-log-normal-model-run.R")
+  source("R code/tailored-hierarchical-consumption-log-normal-model-run.R")
+  source("R code/tailored-hierarchical-consumerdurables-log-normal-model-run.R")
+  source("R code/tailored-hierarchical-temptation-log-normal-model-run.R")
+  # comparing to full and no pooling for mixture variables (these computations are done in the graphics files for standard variables)
+  source("R code/tailored-full-pooling-profit-log-normal-model-run.R")
+  source("R code/tailored-full-pooling-expenditures-log-normal-model-run.R")
+  source("R code/tailored-full-pooling-revenues-log-normal-model-run.R")
+  source("R code/tailored-no-pooling-profit-log-normal-model-run.R")
+  source("R code/tailored-no-pooling-expenditures-log-normal-model-run.R")
+  source("R code/tailored-no-pooling-revenues-log-normal-model-run.R")
+  # different models for profit explored here
+  source("R code/tailored-hierarchical-pdf-profit-pareto.R")
+  source("R code/tailored-hierarchical-profit-DPLN-model-run.R")
+  source("R code/tailored-hierarchical-profit-composite-tails.R")
+  # pb split results
+  source("R code/tailored-hierarchical-pdf-profit-pb-split-lognormal.R")
+  source("R code/tailored-hierarchical-pdf-revenues-pb-split-lognormal.R")
+  source("R code/tailored-hierarchical-pdf-expenditures-pb-split-lognormal.R")
+  source("R code/tailored-hierarchical-pdf-consumption-pb-split-lognormal.R")
+  source("R code/tailored-hierarchical-pdf-consumerdurables-pb-split-lognormal.R")
+  source("R code/tailored-hierarchical-pdf-temptation-pb-split-lognormal.R")
 }
 
 
