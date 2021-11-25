@@ -10,17 +10,11 @@
 
 ### Preliminaries and Data Intake ###
 
-# clear the workspace to avoid gremlins and past globals from past irresponsible scripts
-# but we can't do this if the masterfile is being used to run the script, so we check that first:
-if(exists("masterfile_run") == "FALSE"){
-  rm(list = ls())
-}
-
 installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
-                  "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
-                  "boot", "gridExtra", "stargazer")
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "boot", "gridExtra", "stargazer", "data.table")
 if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
 
@@ -34,7 +28,10 @@ no_pooling_profit <- readRDS("output/no_pooling_table_profit.rds")
 partial_pooling_profit <- readRDS("output/partial_pooling_table_profit.rds")
 
 # stitch them all together
-
+full_pooling_beta_1 <- cbind(c("Average", "Average"), full_pooling_beta_1)
+colnames(full_pooling_beta_1)[1] <- "Country"
+partial_pooling_beta_1 <- cbind(c("Average", "Average"), partial_pooling_beta_1)
+colnames(partial_pooling_beta_1)[1] <- "Country"
 profit_table <- rbind(no_pooling_profit, partial_pooling_profit,partial_pooling_beta_1,full_pooling_beta_1, fill = TRUE)
 
 sink("output/table_profit_all.txt")
@@ -200,9 +197,7 @@ colnames(partial_pooling_consumption_avg) <- c("Country", "5th", "15th", "25th",
 
 partial_pooling_results_consumption <- rbind(partial_pooling_results_consumption, partial_pooling_consumption_avg)
 
-sink("output/table_consumption_all.txt")
-stargazer(partial_pooling_results_consumption, summary = FALSE)
-dev.off
+
 
 # now we will do the no pooling and full pooling for consumption
 
@@ -312,10 +307,6 @@ no_pooling_results_consumption <- rbindlist(list(quantile_effects_consumption_no
 colnames(no_pooling_results_consumption) <- c("Country", "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
 
 
-sink("output/table_consumption_no_pooling_all.txt")
-stargazer(no_pooling_results_consumption, summary = FALSE)
-dev.off
-
 # now try the full pooling
 
 
@@ -333,12 +324,13 @@ lower_ci_quantile_effects_consumption_full_pooling <- round(full_pooling_te - 1.
 upper_ci_quantile_effects_consumption_full_pooling <- round(full_pooling_te + 1.96*full_pooling_se,1)
 ci_quantile_effects_consumption_full_pooling <- paste0("(", lower_ci_quantile_effects_consumption_full_pooling[,], ",", upper_ci_quantile_effects_consumption_full_pooling[,], ")" )
 full_pooling_results_consumption <- rbind(quantile_effects_avg_consumption_full_pooling, ci_quantile_effects_consumption_full_pooling)
-colnames(full_pooling_results_consumption) <- c( "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
-sink("output/table_consumption_full_pooling.txt")
-stargazer(full_pooling_results_consumption, summary = FALSE)
+full_pooling_results_consumption <- cbind(c("Average", "Average"), full_pooling_results_consumption)
+colnames(full_pooling_results_consumption) <- c( "Country", "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
+
+
+consumption_table <- rbind(no_pooling_results_consumption, partial_pooling_results_consumption, full_pooling_results_consumption)
+sink("output/table_consumption_all.txt")
+stargazer(consumption_table, summary = FALSE)
 dev.off
-
-
-
 
 
