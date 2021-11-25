@@ -159,17 +159,18 @@ saveRDS(partial_pooling_beta_1_results_profit, "output/partial_pooling_beta_1_ta
 
 
 library(ggplot2)
+fig_scale = 0.4
 posterior_beta_data <- sign(posterior_beta_data)*(abs(posterior_beta_data))^.1
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_profit_PLN.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_profit_PLN.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "maroon", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "maroon", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on profit from the PLN model") +
-  theme(plot.title = element_text(size = 16)) + #xlim(0.05,0.95) +  ylim(-100,(6^64)) +
+  theme(plot.title = element_text(size = fig_scale*16)) + #xlim(0.05,0.95) +  ylim(-100,(6^64)) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 
