@@ -10,11 +10,7 @@
 
 ### Preliminaries and Data Intake ###
 
-# clear the workspace to avoid gremlins and past globals from past irresponsible scripts
-# but we can't do this if the masterfile is being used to run the script, so we check that first:
-if(exists("masterfile_run") == "FALSE"){
-  rm(list = ls())
-}
+
 install.packages(rstan, coda, ggplot2, stargazer, data.table)
 library("rstan", "coda", "ggplot2", "stargazer", "data.table")
 

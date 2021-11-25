@@ -3,7 +3,9 @@
 
 ##### MAIN PAPER #####
 
-# Toggle for rerunning all the MCMC scripts for the main paper
+## MCMC Models 
+
+# Toggle below for rerunning all the MCMC scripts for the main paper
 # This is possible, but not necessary: I have provided all MCMC output you need to make the tables and figures in the repository 
 # Only switch this to TRUE if you have Rstan working AND a very powerful computer OR a lot of time at your disposal. Caveat Emptor! 
 rerun_MCMC <- FALSE
@@ -40,7 +42,8 @@ source("R code/graphics and computation of quantiles from tailored hierarchical 
 # produces tables 1 and 2 
 source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE) 
 # produces table 3
-source("R code/bayesian tests of equality.R", print.eval = TRUE) # rm token is here. all checked. 
+source("R code/bayesian tests of equality.R", print.eval = TRUE) 
 
+# Rm token is here. it is time for an omnibus test of the above. 
 
 ##### APPENDICES #####
