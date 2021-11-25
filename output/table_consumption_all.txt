@@ -208,3 +208,27 @@ function (which = dev.cur())
  [ reached getOption("max.print") -- omitted 9950 rows ]
 [1] 10000
  [1] 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.9542605 1.5347273 2.3136591 3.5311130 6.1761849
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Nov 25, 2021 - 18:54:59
+\begin{table}[!htbp] \centering 
+  \caption{Posterior odds that effects are equal for groups PB = 0 and 1} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Quantile & Tolerance = 0.5 USD PPP & 1 USD PPP & 3 USD PPP & 5 USD PPP \\ 
+\hline \\[-1.8ex] 
+1 & $0.050$ & $$ & $$ & $$ & $$ \\ 
+2 & $0.150$ & $$ & $$ & $$ & $$ \\ 
+3 & $0.250$ & $$ & $$ & $$ & $$ \\ 
+4 & $0.350$ & $$ & $$ & $$ & $$ \\ 
+5 & $0.450$ & $$ & $$ & $$ & $$ \\ 
+6 & $0.550$ & $$ & $$ & $$ & $$ \\ 
+7 & $0.650$ & $$ & $$ & $$ & $$ \\ 
+8 & $0.750$ & $$ & $$ & $$ & $$ \\ 
+9 & $0.850$ & $$ & $$ & $$ & $$ \\ 
+10 & $0.950$ & $$ & $$ & $$ & $$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 

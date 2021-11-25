@@ -300,16 +300,13 @@ tol <- c(0.5,1,3,5)
 T <- length(tol)
 table_out <- matrix(NA, 10, T)
 for(t in 1:T){
-  t <- 1
 close_enough_indicator <- rep(NA, S)
 close_enough_qbyq <- matrix(NA, S, 10)
 for(s in 1:S){
-  s <- 1
   tol_run <- tol[t]
   x <- quantile_value_output_difference_PB0[s,]
   y <- quantile_value_output_difference_PB1[s,]
   for(i in 1:10){
-    i <- 10
   close_enough_qbyq[s,i] <- (abs(x[i] - y[i]) < tol_run)
   }
 }

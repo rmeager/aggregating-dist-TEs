@@ -34,13 +34,13 @@ source("R code/graphics and computation of quantiles composite tail model.R", pr
 source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models consumption types pb split.R", print.eval  = TRUE)
 source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models pb split.R", print.eval  = TRUE)
 
-# rm token is here. bug discovered in the profit PB saving exercise 
+
 
 ## TABLES
 # produces tables 1 and 2 
 source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE) 
 # produces table 3
-source("R code/bayesian tests of equality.R", print.eval = TRUE)
+source("R code/bayesian tests of equality.R", print.eval = TRUE) # rm token is here. all checked. 
 
 
 ##### APPENDICES #####

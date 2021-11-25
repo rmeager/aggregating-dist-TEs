@@ -150,7 +150,7 @@ saveRDS(codafit_stan_draws_profit_pb_1, file = "output/tailored_hierarchical_pdf
         compress = TRUE, refhook = NULL)
 
 codafit_stan_draws_profit_pb_0 <- as.matrix(stan2coda(stan_fit_pb_0))
-saveRDS(codafit_stan_draws_profit_pb_1, file = "output/tailored_hierarchical_pdf_microcredit_profit_pb_split_0.RDS", ascii = FALSE, version = NULL,
+saveRDS(codafit_stan_draws_profit_pb_0, file = "output/tailored_hierarchical_pdf_microcredit_profit_pb_split_0.RDS", ascii = FALSE, version = NULL,
         compress = TRUE, refhook = NULL)
 
 save.image("output/microcredit_profit_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
