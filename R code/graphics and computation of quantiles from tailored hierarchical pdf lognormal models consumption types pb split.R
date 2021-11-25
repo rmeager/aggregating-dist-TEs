@@ -9,16 +9,10 @@
 
 ### Preliminaries and Data Intake ###
 
-# clear the workspace to avoid gremlins and past globals from past irresponsible scripts
-# but we can't do this if the masterfile is being used to run the script, so we check that first:
-if(exists("masterfile_run") == "FALSE"){
-  rm(list = ls())
-}
-
 installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
-                  "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
                   "boot")
 if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
