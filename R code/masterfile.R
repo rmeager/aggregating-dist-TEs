@@ -20,7 +20,7 @@ source("R code/graphics for no pooling models and site specific output lognormal
 # produces tables 1 and 2
 source("R code/graphics and computation of quantiles from log normal consumption variables.R")
 # produces figure 3
-source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R")  # rm token is here. the above is fully checked. 
+source("R code/posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R")  
 # produces figure 4
 source("R code/graphics and computation of quantiles from PLN model.R")
-source("R code/graphics and computation of quantiles composite tail model.R")
+source("R code/graphics and computation of quantiles composite tail model.R") # rm token is here. the above is fully checked. 

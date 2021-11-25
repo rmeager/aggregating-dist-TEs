@@ -140,23 +140,6 @@ posterior_beta_data <- t(rbind(profit_recovered_quantile_differences, profit_qua
 posterior_beta_data <- data.frame(posterior_beta_data, quantiles_list)
 colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "quantiles_list")
 
-# tabular!
-
-median_beta_1_profit_partial_pooling <- round(t(profit_recovered_quantile_differences[3,]),1)
-lower_ci_beta_1_profit_partial_pooling <- round(t(profit_recovered_quantile_differences[1,]),1)
-upper_ci_beta_1_profit_partial_pooling <- round(t(profit_recovered_quantile_differences[5,]),1) 
-ci_beta_1_profit_partial_pooling <- paste0("(", lower_ci_beta_1_profit_partial_pooling[,], ",", upper_ci_beta_1_profit_partial_pooling[,], ")" )
-ci_beta_1_profit_partial_pooling <- matrix(ci_beta_1_profit_partial_pooling, nrow=1, ncol=10)
-ci_beta_1_profit_partial_pooling <- data.frame(ci_beta_1_profit_partial_pooling )
-median_beta_1_profit_partial_pooling <- data.frame(median_beta_1_profit_partial_pooling)
-install.packages("data.table")
-library(data.table)
-partial_pooling_beta_1_results_profit <- rbindlist(list(median_beta_1_profit_partial_pooling, ci_beta_1_profit_partial_pooling))
-colnames(partial_pooling_beta_1_results_profit) <- c( "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th")
-
-saveRDS(partial_pooling_beta_1_results_profit, "output/partial_pooling_beta_1_table_profit_PLN.rds")
-
-
 
 library(ggplot2)
 fig_scale = 0.4
