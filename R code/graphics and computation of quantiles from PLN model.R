@@ -26,13 +26,7 @@ library(MCMCpack)
 install.packages("NormalLaplace")
 library(NormalLaplace)
 
-load("output/microcredit_profit_PLN_tailored_hierarchical_pdf_output_4000_iters_normal.RData")
-stan_fit_table_profit <- stan_fit_table
-stan_fit_profit <- stan_fit
-codafit_stan_draws_profit <- as.matrix(stan2coda(stan_fit_profit))
-data_split_profit <- data_split
-data_profit <- data
-
+codafit_stan_draws_profit <- readRDS("output/tailored_hierarchical_pdf_microcredit_output_PLN_4000_iters_codafit.RDS")
 
 
 ### FUNCTIONS I WILL NEED

@@ -118,6 +118,19 @@ stan_fit_table <- xtable(stan_fit_summary$summary)
 saveRDS(stan_fit_summary, file = "tailored_hierarchical_pdf_microcredit_output_PLN_4000_iters.RDS", ascii = FALSE, version = NULL,
         compress = TRUE, refhook = NULL)
 
+# now, because how I fit this, the stanfit object is massive
+# to be able to upload this to github, i have to abandon it and work only with the reduced codafit object
+# note, I cannot reduce the stanfit object because stan quite rightly does not allow you to subset parameters from it while preserving its object class 
+
+codafit_stan_draws_profit <- as.matrix(stan2coda(stan_fit_profit))
+dim(codafit_stan_draws_profit)
+parnames <- colnames(codafit_stan_draws_profit)
+reduced_parnames <- grep("epsilon"   , parnames,  value = TRUE, invert = TRUE)
+keep_codafit <- codafit_stan_draws_profit[,reduced_parnames]
+
+saveRDS(keep_codafit, file = "output/tailored_hierarchical_pdf_microcredit_output_PLN_4000_iters_codafit.RDS", ascii = FALSE, version = NULL,
+        compress = TRUE, refhook = NULL)
+
 save.image("output/microcredit_profit_PLN_tailored_hierarchical_pdf_output_4000_iters.RData")
 
 sink("output/microcredit_profit_PLN_tailored_hierarchical_output_table_4000.txt")
