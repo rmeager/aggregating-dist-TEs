@@ -120,19 +120,8 @@ return(data_split)}
 
 ### Load data ###
 
-load("output/microcredit_profit_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
-stan_fit_table_0 <- xtable(stan_fit_summary_0$summary)
-stan_fit_table_1 <- xtable(stan_fit_summary_1$summary)
-stan_fit_table_profit_0 <- stan_fit_table_0
-stan_fit_profit_0 <- stan_fit_pb_0
-codafit_stan_draws_profit_0 <- as.matrix(stan2coda(stan_fit_profit_0))
-data_split_profit_0 <- data_splitter_profit(data_0)
-data_profit_0 <- data_0
-stan_fit_table_profit_1 <- stan_fit_table_1
-stan_fit_profit_1 <- stan_fit_pb_1
-codafit_stan_draws_profit_1 <- as.matrix(stan2coda(stan_fit_profit_1))
-data_split_profit_1 <- data_splitter_profit(data_1)
-data_profit_1 <- data_1
+codafit_stan_draws_profit_1 <- readRDS("output/tailored_hierarchical_pdf_microcredit_profit_pb_split_1.RDS")
+codafit_stan_draws_profit_0 <- readRDS("output/tailored_hierarchical_pdf_microcredit_profit_pb_split_0.RDS")
 
 load("output/microcredit_expenditures_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
 stan_fit_table_0 <- xtable(stan_fit_summary_0$summary)

@@ -142,6 +142,16 @@ stan_fit_table_1 <- xtable(stan_fit_summary_1$summary)
 saveRDS(stan_fit_summary_1, file = "output/tailored_hierarchical_pdf_microcredit_output_pb_split_1_lognormal.RDS", ascii = FALSE, version = NULL,
         compress = TRUE, refhook = NULL)
 
+# now, because how I fit this, the stanfit object is massive
+# to be able to upload this to github, i have to abandon it and work only with the reduced codafit object
+
+codafit_stan_draws_profit_pb_1 <- as.matrix(stan2coda(stan_fit_pb_1))
+saveRDS(codafit_stan_draws_profit_pb_1, file = "output/tailored_hierarchical_pdf_microcredit_profit_pb_split_1.RDS", ascii = FALSE, version = NULL,
+        compress = TRUE, refhook = NULL)
+
+codafit_stan_draws_profit_pb_0 <- as.matrix(stan2coda(stan_fit_pb_0))
+saveRDS(codafit_stan_draws_profit_pb_1, file = "output/tailored_hierarchical_pdf_microcredit_profit_pb_split_0.RDS", ascii = FALSE, version = NULL,
+        compress = TRUE, refhook = NULL)
 
 save.image("output/microcredit_profit_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
 
