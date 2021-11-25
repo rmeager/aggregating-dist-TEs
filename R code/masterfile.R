@@ -1,7 +1,12 @@
 # Masterfile for Aggregating Distributional Treatment Effects 
 
-# Toggle for MCMC
-rerun_MCMC <- FALSE # only turn this onto true if you have a very powerful computer or a lot of time at your disposal 
+
+##### MAIN PAPER #####
+
+# Toggle for rerunning all the MCMC scripts for the main paper
+# This is possible, but not necessary: I have provided all MCMC output you need to make the tables and figures in the repository 
+# Only switch this to TRUE if you have Rstan working AND a very powerful computer OR a lot of time at your disposal. Caveat Emptor! 
+rerun_MCMC <- FALSE
 if(rerun_MCMC == TRUE){
   source()
   
@@ -29,8 +34,13 @@ source("R code/graphics and computation of quantiles composite tail model.R", pr
 source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models consumption types pb split.R", print.eval  = TRUE)
 source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models pb split.R", print.eval  = TRUE)
 
-
+# rm token is here. bug discovered in the profit PB saving exercise 
 
 ## TABLES
 # produces tables 1 and 2 
-source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE) # rm token is here. the above is fully checked. 
+source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE) 
+# produces table 3
+source("R code/bayesian tests of equality.R", print.eval = TRUE)
+
+
+##### APPENDICES #####

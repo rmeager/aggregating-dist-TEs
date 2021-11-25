@@ -9,16 +9,10 @@
 
 ### Preliminaries and Data Intake ###
 
-# clear the workspace to avoid gremlins and past globals from past irresponsible scripts
-# but we can't do this if the masterfile is being used to run the script, so we check that first:
-if(exists("masterfile_run") == "FALSE"){
-  rm(list = ls())
-}
-
 installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
-                  "MCMCpack", "geoR", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
                   "boot", "gridExtra")
 if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
@@ -159,19 +153,22 @@ data_splitter_profit <- function(data){
   data_split <- list( data[cat==1,],data[cat==3,])
   return(data_split)} # end data splitter profit function
 
-load("output/microcredit_profit_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
-stan_fit_table_0 <- xtable(stan_fit_summary_0$summary)
-stan_fit_table_1 <- xtable(stan_fit_summary_1$summary)
-stan_fit_table_profit_0 <- stan_fit_table_0
-stan_fit_profit_0 <- stan_fit_pb_0
-codafit_stan_draws_profit_0 <- as.matrix(stan2coda(stan_fit_profit_0))
-data_split_profit_0 <- data_splitter_profit(data_0)
-data_profit_0 <- data_0
-stan_fit_table_profit_1 <- stan_fit_table_1
-stan_fit_profit_1 <- stan_fit_pb_1
-codafit_stan_draws_profit_1 <- as.matrix(stan2coda(stan_fit_profit_1))
-data_split_profit_1 <- data_splitter_profit(data_1)
-data_profit_1 <- data_1
+# load("output/microcredit_profit_tailored_hierarchical_pdf_output_pb_split_lognormal.RData")
+# stan_fit_table_0 <- xtable(stan_fit_summary_0$summary)
+# stan_fit_table_1 <- xtable(stan_fit_summary_1$summary)
+# stan_fit_table_profit_0 <- stan_fit_table_0
+# stan_fit_profit_0 <- stan_fit_pb_0
+# codafit_stan_draws_profit_0 <- as.matrix(stan2coda(stan_fit_profit_0))
+# data_split_profit_0 <- data_splitter_profit(data_0)
+# data_profit_0 <- data_0
+# stan_fit_table_profit_1 <- stan_fit_table_1
+# stan_fit_profit_1 <- stan_fit_pb_1
+# codafit_stan_draws_profit_1 <- as.matrix(stan2coda(stan_fit_profit_1))
+# data_split_profit_1 <- data_splitter_profit(data_1)
+# data_profit_1 <- data_1
+
+codafit_stan_draws_profit_1 <- readRDS("output/tailored_hierarchical_pdf_microcredit_profit_pb_split_1.RDS")
+codafit_stan_draws_profit_0 <- readRDS("output/tailored_hierarchical_pdf_microcredit_profit_pb_split_0.RDS")
 
 
 codafit_stan_draws <- codafit_stan_draws_profit_1
@@ -303,13 +300,16 @@ tol <- c(0.5,1,3,5)
 T <- length(tol)
 table_out <- matrix(NA, 10, T)
 for(t in 1:T){
+  t <- 1
 close_enough_indicator <- rep(NA, S)
 close_enough_qbyq <- matrix(NA, S, 10)
 for(s in 1:S){
+  s <- 1
   tol_run <- tol[t]
   x <- quantile_value_output_difference_PB0[s,]
   y <- quantile_value_output_difference_PB1[s,]
   for(i in 1:10){
+    i <- 10
   close_enough_qbyq[s,i] <- (abs(x[i] - y[i]) < tol_run)
   }
 }
@@ -320,7 +320,9 @@ table_out[i,t] <- (mean(close_enough_qbyq[,i]))}
 
 }
 table_out <- as.data.frame(table_out)
-table_out <- data.frame(quantiles, table_out)
+table_out <- data.frame(quantile_vec, table_out)
 colnames(table_out) <- c("Quantile", "Tolerance = 0.5 USD PPP", "1 USD PPP", "3 USD PPP", "5 USD PPP")
 stargazer(table_out, summary = FALSE, title = "Posterior odds that effects are equal for groups PB = 0 and 1")
-
+sink("bayesian_tests_equality.txt")
+stargazer(table_out, summary = FALSE, title = "Posterior odds that effects are equal for groups PB = 0 and 1")
+dev.off()
