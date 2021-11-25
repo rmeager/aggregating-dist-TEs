@@ -66,6 +66,14 @@ source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE)
 # produces table 3
 source("R code/bayesian tests of equality.R", print.eval = TRUE) 
 
-# Rm token is here. passed the omnibus test. 
+# Rm token is here. you need to add the kurtosis computations!!!! 
 
-##### APPENDICES #####
+##### ONLINE APPENDICES #####
+
+# putting all the MCMC output for all the online appendix files is too big for github to handle 
+# nevertheless here are the essentials, if you want to use them toggle this on
+run_online_appendices <- FALSE
+if(run_online_appendices == TRUE){
+  
+  
+}
