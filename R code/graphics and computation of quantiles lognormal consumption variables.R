@@ -274,7 +274,7 @@ pdf("output/posterior_parent_quantile_TEs_consumption_lognormal.pdf", width=fig_
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "red", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "red", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"mean"]), color = "dark red", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"mean"]), color = "dark red", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on consumption") +
   theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-100,400) +
   xlab("Quantiles") + ylab("Quantile treatment effect")+

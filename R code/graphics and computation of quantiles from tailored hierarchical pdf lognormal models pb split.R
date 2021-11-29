@@ -330,15 +330,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "orange", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "orange", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on profit PB=1 ") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) + ylim(-350,350) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) + ylim(-350,350) +
   xlab("Quantiles") + ylab("Quantile treatment effect ")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 # expenditures # 
@@ -350,15 +350,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "orange", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "orange", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on expenditures PB=1") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) +  ylim(-100,500) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) +  ylim(-100,500) +
   xlab("Quantiles") + ylab("Quantile treatment effect ")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 
@@ -371,15 +371,15 @@ colnames(posterior_beta_data) <- c("2.5%","25%","50%", "75%", "97.5%", "mean", "
 
 
 posterior_beta_data_plot <- ggplot(posterior_beta_data, aes(posterior_beta_data$quantiles_list))
-pdf("output/posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf", width=6.5, height=6)
+pdf("output/posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf", width=fig_scale*6.5, height=fig_scale*6)
 posterior_beta_data_plot +
   geom_ribbon(aes(ymin = posterior_beta_data[,"2.5%"], ymax = posterior_beta_data[,"97.5%"]), fill = "orange", alpha=0.3) +
   geom_ribbon(aes(ymin = posterior_beta_data[,"25%"], ymax = posterior_beta_data[,"75%"]), fill = "orange", alpha=0.6) +
-  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = 1.5) +
+  geom_line(aes(y = posterior_beta_data[,"50%"]), color = "dark orange", size = fig_scale*1.5) +
   ggtitle("Posterior quantile effects on revenues PB=1") +
-  theme(plot.title = element_text(size = 16)) + xlim(0.05,0.95) +  ylim(-250,600) +
+  theme(plot.title = element_text(size = fig_scale*16)) + xlim(0.05,0.95) +  ylim(-250,600) +
   xlab("Quantiles") + ylab("Quantile treatment effect ")+
-  theme(axis.text = element_text(size=14)) +  theme(axis.title.y = element_text(size = 14)) +  theme(axis.title.x = element_text(size = 14))
+  theme(axis.text = element_text(size=fig_scale*14)) +  theme(axis.title.y = element_text(size = fig_scale*14)) +  theme(axis.title.x = element_text(size = fig_scale*14))
 dev.off()
 
 

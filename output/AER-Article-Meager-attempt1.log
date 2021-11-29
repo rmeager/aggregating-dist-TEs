@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -164,7 +164,29 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count107
 )))
-(./AER-Article-Meager-attempt1.aux)
+(./AER-Article-Meager-attempt1.aux
+
+LaTeX Warning: Label `model fit back' multiply defined.
+
+
+LaTeX Warning: Label `big consumption table back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+
+LaTeX Warning: Label `big consumption table back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+
+LaTeX Warning: Label `model fit back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+)
 \openout1 = `AER-Article-Meager-attempt1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -179,8 +201,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen120
@@ -326,10 +347,6 @@ LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
 
 LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
 
-
-LaTeX Warning: Reference `posterior odds PB table' on page 18 undefined on inpu
-t line 259.
-
 [18]
 
 LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
@@ -341,31 +358,24 @@ LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
 Underfull \vbox (badness 5359) has occurred while \output is active []
 
  [19]
-[20]
-Overfull \hbox (83.42256pt too wide) in paragraph at lines 301--347
-[] 
- []
-
-[21
+[20] [21
 
 
 ]
-Overfull \hbox (143.97464pt too wide) in paragraph at lines 365--417
+Overfull \hbox (8.34647pt too wide) in paragraph at lines 365--417
 [] 
  []
 
+[22
 
-LaTeX Warning: Float too large for page by 162.682pt on input line 418.
 
-[22]
+
+]
 Overfull \hbox (35.9875pt too wide) in paragraph at lines 428--449
  [] 
  []
 
 [23
-
-
-
 
 ]
 <posterior_parent_quantile_TEs_consumption_lognormal.pdf, id=94, 187.70125pt x 
@@ -744,37 +754,37 @@ No file AER-Article-Meager-attempt1.bbl.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2507 strings out of 492995
- 41489 string characters out of 6132705
- 111448 words of memory out of 5000000
- 5997 multiletter control sequences out of 15000+600000
- 13156 words of font info for 49 fonts, out of 8000000 for 9000
+ 2497 strings out of 492995
+ 41398 string characters out of 6132705
+ 111720 words of memory out of 5000000
+ 5992 multiletter control sequences out of 15000+600000
+ 11877 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,2700b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,25p,2700b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/rachael/Library/texlive/2017/texmf-var/fonts/pk/ljfour/public/bbm/bb
 m10.657pk></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on AER-Article-Meager-attempt1.pdf (30 pages, 442304 bytes).
+x5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on AER-Article-Meager-attempt1.pdf (30 pages, 446773 bytes).
 PDF statistics:
  461 PDF objects out of 1000 (max. 8388607)
  348 compressed objects within 4 object streams
