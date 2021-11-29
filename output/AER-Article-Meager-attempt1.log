@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,14 +742,50 @@ erior_parent_quantile_TEs_profit_pb_1_lognormal.pdf> <./posterior_parent_quanti
 le_TEs_revenues_pb_0_lognormal.pdf> <./posterior_parent_quantile_TEs_revenues_p
 b_1_lognormal.pdf> <./posterior_parent_quantile_TEs_expenditures_pb_0_lognormal
 .pdf> <./posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf>]
-No file AER-Article-Meager-attempt1.bbl.
 [30
 
 
 
 
 
-] (./AER-Article-Meager-attempt1.aux)
+]
+Underfull \hbox (badness 3579) in paragraph at lines 625--626
+[]\OT1/cmr/m/n/10.95 Castellacci, Giuseppe, (2012) "A For-mula for the Quan-til
+es of Mix-
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 625--626
+\OT1/cmr/m/n/10.95 tures of Dis-tri-bu-tions with Dis-joint Sup-ports". Avail-a
+ble at SSRN:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \hbox (badness 3895) in paragraph at lines 657--658
+[]\OT1/cmr/m/n/10.95 Gabaix, X. (2008) "Power Laws in Eco-nomics and Fi-nance" 
+NBER
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
+\OT1/cmr/m/n/10.95 Work-ing Pa-per No. 14299, ac-cessed on-line Au-gust 12th 20
+16,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+[35] (./AER-Article-Meager-attempt1.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -758,10 +794,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2497 strings out of 492995
- 41398 string characters out of 6132705
- 111720 words of memory out of 5000000
- 5992 multiletter control sequences out of 15000+600000
+ 2580 strings out of 492995
+ 42058 string characters out of 6132705
+ 112047 words of memory out of 5000000
+ 6076 multiletter control sequences out of 15000+600000
  11877 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,25p,2700b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -784,10 +820,10 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on AER-Article-Meager-attempt1.pdf (30 pages, 446773 bytes).
+Output written on AER-Article-Meager-attempt1.pdf (35 pages, 460863 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
+ 477 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
