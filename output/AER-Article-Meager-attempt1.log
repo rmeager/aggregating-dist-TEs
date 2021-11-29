@@ -1,0 +1,783 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 14:32
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**AER-Article-Meager-attempt1.tex
+(./AER-Article-Meager-attempt1.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(./AEA.cls
+Document Class: AEA 2011/07/24 American Economic Association Article Classes
+(./multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count79
+\mult@box=\box26
+\multicol@leftmargin=\dimen102
+\c@unbalance=\count80
+\c@collectmore=\count81
+\doublecol@number=\count82
+\multicoltolerance=\count83
+\multicolpretolerance=\count84
+\full@width=\dimen103
+\page@free=\dimen104
+\premulticols=\dimen105
+\postmulticols=\dimen106
+\multicolsep=\skip41
+\multicolbaselineskip=\skip42
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count85
+\c@finalcolumnbadness=\count86
+\last@try=\dimen107
+\multicolovershoot=\dimen108
+\multicolundershoot=\dimen109
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+) (./setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen110
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen111
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+Journal Selected: THE AMERICAN ECONOMIC REVIEW
+Mode Selected: final
+\abstractIndent=\skip46
+\abstractWidth=\skip47
+\c@part=\count99
+\c@section=\count100
+\c@subsection=\count101
+\c@subsubsection=\count102
+\c@paragraph=\count103
+\c@subparagraph=\count104
+\c@figure=\count105
+\c@table=\count106
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen119
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count107
+)))
+(./AER-Article-Meager-attempt1.aux)
+\openout1 = `AER-Article-Meager-attempt1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen120
+\scratchbox=\box54
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen121
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+ [1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4] [5] [6] [7] [8] [9] [10] [11]
+
+LaTeX Warning: Reference `*' on page 12 undefined on input line 175.
+
+[12] [13]
+Overfull \hbox (3.48442pt too wide) in paragraph at lines 205--205
+[]$\OT1/cmr/m/n/8 .| 
+ []
+
+[14]
+LaTeX Font Info:    Try loading font information for U+bbm on input line 216.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
+Overfull \hbox (6.82115pt too wide) detected at line 220
+[][]
+ []
+
+
+Overfull \hbox (64.76292pt too wide) detected at line 230
+[][]
+ []
+
+[15]
+
+LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+
+
+LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+
+
+LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+
+
+LaTeX Warning: Reference `*' on page 16 undefined on input line 242.
+
+
+LaTeX Warning: Reference `*' on page 16 undefined on input line 242.
+
+[16]
+
+LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+
+
+LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+
+
+LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+
+
+LaTeX Warning: Reference `*' on page 17 undefined on input line 250.
+
+
+LaTeX Warning: Reference `*' on page 17 undefined on input line 250.
+
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
+ [17]
+
+LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
+
+
+LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
+
+
+LaTeX Warning: Reference `posterior odds PB table' on page 18 undefined on inpu
+t line 259.
+
+[18]
+
+LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
+
+
+LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
+
+
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+ [19]
+[20]
+Overfull \hbox (83.42256pt too wide) in paragraph at lines 301--347
+[] 
+ []
+
+[21
+
+
+]
+Overfull \hbox (143.97464pt too wide) in paragraph at lines 365--417
+[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 162.682pt on input line 418.
+
+[22]
+Overfull \hbox (35.9875pt too wide) in paragraph at lines 428--449
+ [] 
+ []
+
+[23
+
+
+
+
+]
+<posterior_parent_quantile_TEs_consumption_lognormal.pdf, id=94, 187.70125pt x 
+172.645pt>
+File: posterior_parent_quantile_TEs_consumption_lognormal.pdf Graphic file (typ
+e pdf)
+ <use posterior_parent_quantile_TEs_consumption_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_lognormal.pd
+f used on input line 464.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_profit_lognormal.pdf, id=95, 187.70125pt x 172.6
+45pt>
+File: posterior_parent_quantile_TEs_profit_lognormal.pdf Graphic file (type pdf
+)
+ <use posterior_parent_quantile_TEs_profit_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_lognormal.pdf use
+d on input line 465.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf, id=96, 187.70125
+pt x 172.645pt>
+File: posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf Graphic file
+ (type pdf)
+
+<use posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_lognorm
+al.pdf used on input line 466.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_revenues_lognormal.pdf, id=97, 187.70125pt x 172
+.645pt>
+File: posterior_parent_quantile_TEs_revenues_lognormal.pdf Graphic file (type p
+df)
+ <use posterior_parent_quantile_TEs_revenues_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_lognormal.pdf u
+sed on input line 467.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_temptation_lognormal.pdf, id=98, 187.70125pt x 1
+72.645pt>
+File: posterior_parent_quantile_TEs_temptation_lognormal.pdf Graphic file (type
+ pdf)
+ <use posterior_parent_quantile_TEs_temptation_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_lognormal.pdf
+ used on input line 468.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_expenditures_lognormal.pdf, id=99, 187.70125pt x
+ 172.645pt>
+File: posterior_parent_quantile_TEs_expenditures_lognormal.pdf Graphic file (ty
+pe pdf)
+ <use posterior_parent_quantile_TEs_expenditures_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_lognormal.p
+df used on input line 469.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+
+LaTeX Warning: Float too large for page by 27.32301pt on input line 471.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<posterior_predicted_quantile_TEs_consumption_lognormal.pdf, id=100, 187.70125p
+t x 172.645pt>
+File: posterior_predicted_quantile_TEs_consumption_lognormal.pdf Graphic file (
+type pdf)
+
+<use posterior_predicted_quantile_TEs_consumption_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_consumption_lognormal
+.pdf used on input line 480.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_predicted_quantile_TEs_profit_lognormal.pdf, id=101, 187.70125pt x 1
+72.645pt>
+File: posterior_predicted_quantile_TEs_profit_lognormal.pdf Graphic file (type 
+pdf)
+ <use posterior_predicted_quantile_TEs_profit_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_profit_lognormal.pdf 
+used on input line 481.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf, id=102, 187.7
+0125pt x 172.645pt>
+File: posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf Graphic f
+ile (type pdf)
+
+<use posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_consumerdurables_logn
+ormal.pdf used on input line 482.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_predicted_quantile_TEs_revenues_lognormal.pdf, id=103, 187.70125pt x
+ 172.645pt>
+File: posterior_predicted_quantile_TEs_revenues_lognormal.pdf Graphic file (typ
+e pdf)
+ <use posterior_predicted_quantile_TEs_revenues_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_revenues_lognormal.pd
+f used on input line 483.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_predicted_quantile_TEs_temptation_lognormal.pdf, id=104, 187.70125pt
+ x 172.645pt>
+File: posterior_predicted_quantile_TEs_temptation_lognormal.pdf Graphic file (t
+ype pdf)
+ <use posterior_predicted_quantile_TEs_temptation_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_temptation_lognormal.
+pdf used on input line 484.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_predicted_quantile_TEs_expenditures_lognormal.pdf, id=105, 187.70125
+pt x 172.645pt>
+File: posterior_predicted_quantile_TEs_expenditures_lognormal.pdf Graphic file 
+(type pdf)
+
+<use posterior_predicted_quantile_TEs_expenditures_lognormal.pdf>
+Package pdftex.def Info: posterior_predicted_quantile_TEs_expenditures_lognorma
+l.pdf used on input line 485.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+
+LaTeX Warning: Float too large for page by 27.32301pt on input line 487.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./posterior_parent_quantile_TEs_consumption_lognormal.pdf> <./posterior_pa
+rent_quantile_TEs_profit_lognormal.pdf> <./posterior_parent_quantile_TEs_consum
+erdurables_lognormal.pdf> <./posterior_parent_quantile_TEs_revenues_lognormal.p
+df> <./posterior_parent_quantile_TEs_temptation_lognormal.pdf> <./posterior_par
+ent_quantile_TEs_expenditures_lognormal.pdf>] [25 <./posterior_predicted_quanti
+le_TEs_consumption_lognormal.pdf> <./posterior_predicted_quantile_TEs_profit_lo
+gnormal.pdf> <./posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf
+> <./posterior_predicted_quantile_TEs_revenues_lognormal.pdf> <./posterior_pred
+icted_quantile_TEs_temptation_lognormal.pdf> <./posterior_predicted_quantile_TE
+s_expenditures_lognormal.pdf>]
+<posterior_predictive_profit.pdf, id=222, 289.08pt x 172.645pt>
+File: posterior_predictive_profit.pdf Graphic file (type pdf)
+
+<use posterior_predictive_profit.pdf>
+Package pdftex.def Info: posterior_predictive_profit.pdf used on input line 495
+.
+(pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
+
+<posterior_predictive_revenues.pdf, id=223, 289.08pt x 172.645pt>
+File: posterior_predictive_revenues.pdf Graphic file (type pdf)
+
+<use posterior_predictive_revenues.pdf>
+Package pdftex.def Info: posterior_predictive_revenues.pdf used on input line 4
+96.
+(pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
+
+<posterior_predictive_expenditures.pdf, id=224, 289.08pt x 172.645pt>
+File: posterior_predictive_expenditures.pdf Graphic file (type pdf)
+
+<use posterior_predictive_expenditures.pdf>
+Package pdftex.def Info: posterior_predictive_expenditures.pdf used on input li
+ne 497.
+(pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
+
+
+LaTeX Warning: Float too large for page by 13.87857pt on input line 500.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./posterior_predictive_profit.pdf> <./posterior_predictive_revenues.pdf> <
+./posterior_predictive_expenditures.pdf>]
+<posterior_parent_quantile_TEs_profit_composite.pdf, id=246, 187.70125pt x 172.
+645pt>
+File: posterior_parent_quantile_TEs_profit_composite.pdf Graphic file (type pdf
+)
+ <use posterior_parent_quantile_TEs_profit_composite.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_composite.pdf use
+d on input line 513.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_profit_PLN.pdf, id=247, 187.70125pt x 172.645pt>
+File: posterior_parent_quantile_TEs_profit_PLN.pdf Graphic file (type pdf)
+<use posterior_parent_quantile_TEs_profit_PLN.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_PLN.pdf used on i
+nput line 514.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+File: posterior_parent_quantile_TEs_profit_lognormal.pdf Graphic file (type pdf
+)
+
+<use posterior_parent_quantile_TEs_profit_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_lognormal.pdf use
+d on input line 515.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+
+LaTeX Warning: Float too large for page by 104.87857pt on input line 518.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./posterior_parent_quantile_TEs_profit_composite.pdf> <./posterior_parent_
+quantile_TEs_profit_PLN.pdf>]
+<posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf, id=269, 187.7012
+5pt x 172.645pt>
+File: posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf Graphic file
+ (type pdf)
+
+<use posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_0_lognorm
+al.pdf used on input line 535.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf, id=270, 469.755p
+t x 433.62pt>
+File: posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf Graphic file
+ (type pdf)
+
+<use posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_1_lognorm
+al.pdf used on input line 536.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 535--536
+ [] 
+ []
+
+
+<posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf, id=271, 187
+.70125pt x 172.645pt>
+File: posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf Graphic
+ file (type pdf)
+
+<use posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_0_lo
+gnormal.pdf used on input line 537.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf, id=272, 469
+.755pt x 433.62pt>
+File: posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf Graphic
+ file (type pdf)
+
+<use posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_1_lo
+gnormal.pdf used on input line 538.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 537--538
+ [] 
+ []
+
+
+<posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf, id=273, 187.70125
+pt x 172.645pt>
+File: posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf Graphic file 
+(type pdf)
+
+<use posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_0_lognorma
+l.pdf used on input line 539.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf, id=274, 469.755pt
+ x 433.62pt>
+File: posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf Graphic file 
+(type pdf)
+ <use posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_1_lognorma
+l.pdf used on input line 540.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 539--540
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 1331.17984pt on input line 542.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf, id=275, 187.70125pt x
+ 172.645pt>
+File: posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf Graphic file (typ
+e pdf)
+ <use posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_0_lognormal.pd
+f used on input line 550.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf, id=276, 469.755pt x 4
+33.62pt>
+File: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf Graphic file (typ
+e pdf)
+ <use posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pd
+f used on input line 551.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 550--551
+ [] 
+ []
+
+
+<posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf, id=277, 187.70125pt
+ x 172.645pt>
+File: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf Graphic file (t
+ype pdf)
+ <use posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.
+pdf used on input line 552.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf, id=278, 469.755pt x
+ 433.62pt>
+File: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf Graphic file (t
+ype pdf)
+ <use posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.
+pdf used on input line 553.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 552--553
+ [] 
+ []
+
+
+<posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf, id=279, 187.701
+25pt x 172.645pt>
+File: posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf Graphic fil
+e (type pdf)
+
+<use posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_0_lognor
+mal.pdf used on input line 554.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
+
+<posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf, id=280, 469.755
+pt x 433.62pt>
+File: posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf Graphic fil
+e (type pdf)
+
+<use posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf>
+Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_1_lognor
+mal.pdf used on input line 555.
+(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+
+Overfull \hbox (84.21902pt too wide) in paragraph at lines 554--556
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 1343.7354pt on input line 557.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf> <./posteri
+or_parent_quantile_TEs_consumption_pb_1_lognormal.pdf> <./posterior_parent_quan
+tile_TEs_consumerdurables_pb_0_lognormal.pdf> <./posterior_parent_quantile_TEs_
+consumerdurables_pb_1_lognormal.pdf> <./posterior_parent_quantile_TEs_temptatio
+n_pb_0_lognormal.pdf> <./posterior_parent_quantile_TEs_temptation_pb_1_lognorma
+l.pdf>] [29 <./posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf> <./post
+erior_parent_quantile_TEs_profit_pb_1_lognormal.pdf> <./posterior_parent_quanti
+le_TEs_revenues_pb_0_lognormal.pdf> <./posterior_parent_quantile_TEs_revenues_p
+b_1_lognormal.pdf> <./posterior_parent_quantile_TEs_expenditures_pb_0_lognormal
+.pdf> <./posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf>]
+No file AER-Article-Meager-attempt1.bbl.
+[30
+
+
+
+
+
+] (./AER-Article-Meager-attempt1.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2507 strings out of 492995
+ 41489 string characters out of 6132705
+ 111448 words of memory out of 5000000
+ 5997 multiletter control sequences out of 15000+600000
+ 13156 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,9n,25p,2700b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/rachael/Library/texlive/2017/texmf-var/fonts/pk/ljfour/public/bbm/bb
+m10.657pk></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on AER-Article-Meager-attempt1.pdf (30 pages, 442304 bytes).
+PDF statistics:
+ 461 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+
