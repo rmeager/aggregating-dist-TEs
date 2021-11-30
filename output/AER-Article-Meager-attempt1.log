@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  29 NOV 2021 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  30 NOV 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,36 +749,36 @@ b_1_lognormal.pdf> <./posterior_parent_quantile_TEs_expenditures_pb_0_lognormal
 
 
 ]
-Underfull \hbox (badness 3579) in paragraph at lines 625--626
-[]\OT1/cmr/m/n/10.95 Castellacci, Giuseppe, (2012) "A For-mula for the Quan-til
-es of Mix-
+Underfull \hbox (badness 6032) in paragraph at lines 625--626
+[] \OT1/cmr/bx/n/10.95 Castel-lacci, Giuseppe. \OT1/cmr/m/n/10.95 2012. "A For-
+mula for the Quan-tiles of
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 625--626
-\OT1/cmr/m/n/10.95 tures of Dis-tri-bu-tions with Dis-joint Sup-ports". Avail-a
-ble at SSRN:
+Underfull \hbox (badness 2158) in paragraph at lines 625--626
+\OT1/cmr/m/n/10.95 Mix-tures of Dis-tri-bu-tions with Dis-joint Sup-ports". Ava
+il-able at SSRN:
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-Underfull \hbox (badness 3895) in paragraph at lines 657--658
-[]\OT1/cmr/m/n/10.95 Gabaix, X. (2008) "Power Laws in Eco-nomics and Fi-nance" 
-NBER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
-\OT1/cmr/m/n/10.95 Work-ing Pa-per No. 14299, ac-cessed on-line Au-gust 12th 20
-16,
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
+Underfull \hbox (badness 3861) in paragraph at lines 657--658
+[] \OT1/cmr/bx/n/10.95 Gabaix, Xavier. \OT1/cmr/m/n/10.95 2008. "Power Laws in 
+Eco-nomics and Fi-nance"
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 657--658
+\OT1/cmr/m/n/10.95 NBER Work-ing Pa-per No. 14299, ac-cessed on-line Au-gust 12
+th 2016,
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
@@ -820,7 +820,7 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on AER-Article-Meager-attempt1.pdf (35 pages, 460863 bytes).
+Output written on AER-Article-Meager-attempt1.pdf (35 pages, 468825 bytes).
 PDF statistics:
  477 PDF objects out of 1000 (max. 8388607)
  359 compressed objects within 4 object streams
