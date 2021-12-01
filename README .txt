@@ -64,7 +64,7 @@ Processor Name:	Quad-Core Intel Core i5
   Hyper-Threading Technology:	Enabled
   Memory:	32 GB
 
-Running all the MCMC would take about 72 hours on a high performance server, and likely. 
+Re-running all the MCMC would take about 4-5 days on a high performance server, and likely 2-3 weeks on the machine above. 
 
 5. DESCRIPTION OF PROGRAMS / CODE 
 
