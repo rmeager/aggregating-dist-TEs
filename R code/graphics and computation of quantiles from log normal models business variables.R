@@ -10,7 +10,7 @@
 
 ### Preliminaries and Data Intake ###
 
-installation_needed  <- FALSE
+installation_needed  <- TRUE 
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
                   "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
