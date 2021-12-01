@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  1 DEC 2021 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  1 DEC 2021 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**AER-Article-Meager-attempt1.tex
-(./AER-Article-Meager-attempt1.tex
+**AER-Article-Meager-Aggregating-Distributional-Effects.tex
+(./AER-Article-Meager-Aggregating-Distributional-Effects.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./AEA.cls
 Document Class: AEA 2011/07/24 American Economic Association Article Classes
@@ -160,8 +160,30 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box73
 )
-No file AER-Article-Meager-attempt1.aux.
-\openout1 = `AER-Article-Meager-attempt1.aux'.
+(./AER-Article-Meager-Aggregating-Distributional-Effects.aux
+
+LaTeX Warning: Label `model fit back' multiply defined.
+
+
+LaTeX Warning: Label `big consumption table back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+
+LaTeX Warning: Label `big consumption table back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+
+LaTeX Warning: Label `model fit back' multiply defined.
+
+
+LaTeX Warning: Label `big profit table back' multiply defined.
+
+)
+\openout1 = `AER-Article-Meager-Aggregating-Distributional-Effects.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -177,7 +199,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count196
 \scratchdimen=\dimen152
@@ -206,11 +228,7 @@ e
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4] [5] [6] [7] [8] [9] [10] [11]
-
-LaTeX Warning: Reference `model fit' on page 12 undefined on input line 175.
-
-[12] [13]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
 Overfull \hbox (3.48442pt too wide) in paragraph at lines 205--205
 []$\OT1/cmr/m/n/8 .| 
  []
@@ -230,73 +248,11 @@ Overfull \hbox (64.76292pt too wide) detected at line 230
 [][]
  []
 
-[15]
-
-LaTeX Warning: Reference `posterior general quantiles' on page 16 undefined on 
-input line 240.
-
-
-LaTeX Warning: Reference `big consumption table' on page 16 undefined on input 
-line 240.
-
-
-LaTeX Warning: Reference `big profit table' on page 16 undefined on input line 
-240.
-
-
-LaTeX Warning: Reference `big consumption table' on page 16 undefined on input 
-line 242.
-
-
-LaTeX Warning: Reference `big profit table' on page 16 undefined on input line 
-242.
-
-[16]
-
-LaTeX Warning: Reference `posterior predicted quantiles' on page 17 undefined o
-n input line 247.
-
-
-LaTeX Warning: Reference `big consumption table' on page 17 undefined on input 
-line 247.
-
-
-LaTeX Warning: Reference `big profit table' on page 17 undefined on input line 
-247.
-
-
-LaTeX Warning: Reference `model fit' on page 17 undefined on input line 250.
-
-
-LaTeX Warning: Reference `complex quantiles' on page 17 undefined on input line
- 250.
-
-
+[15] [16]
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [17]
-
-LaTeX Warning: Reference `consumption posterior general quantiles pb split' on 
-page 18 undefined on input line 257.
-
-
-LaTeX Warning: Reference `posterior mean quantiles profit pb split' on page 18 
-undefined on input line 257.
-
-
-LaTeX Warning: Reference `posterior odds PB table' on page 18 undefined on inpu
-t line 259.
-
 [18]
-
-LaTeX Warning: Reference `big consumption table' on page 19 undefined on input 
-line 268.
-
-
-LaTeX Warning: Reference `big profit table' on page 19 undefined on input line 
-268.
-
-
 Underfull \vbox (badness 5359) has occurred while \output is active []
 
  [19]
@@ -658,22 +614,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-[35] (./AER-Article-Meager-attempt1.aux)
+[35] (./AER-Article-Meager-Aggregating-Distributional-Effects.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2250 strings out of 480608
- 39451 string characters out of 5903631
- 286398 words of memory out of 5000000
+ 2252 strings out of 480608
+ 39775 string characters out of 5903631
+ 287079 words of memory out of 5000000
  18119 multiletter control sequences out of 15000+600000
  541252 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,29p,2698b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,29p,2724b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/rachaelmeager/Library/texlive/2020/texmf-var/fonts/pk/ljfour/public/
 bbm/bbm10.657pk>{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
@@ -696,7 +649,8 @@ texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on AER-Article-Meager-attempt1.pdf (35 pages, 474824 bytes).
+Output written on AER-Article-Meager-Aggregating-Distributional-Effects.pdf (35
+ pages, 474321 bytes).
 PDF statistics:
  483 PDF objects out of 1000 (max. 8388607)
  363 compressed objects within 4 object streams
