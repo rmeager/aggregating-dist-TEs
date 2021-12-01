@@ -9,21 +9,11 @@
 
 ### Preliminaries and Data Intake ###
 
-# clear the workspace to avoid gremlins and past globals from past irresponsible scripts
-# but we can't do this if the masterfile is being used to run the script, so we check that first:
-if(exists("masterfile_run") == "FALSE"){
-  rm(list = ls())
-}
-
-
-# you may want to use this, but then again, you may not: setwd("/Users/rachaelmeager/Dropbox/research work/MIT IMPRINT/Research work/aggregating distributional effects/")
-
 
 # Load data
 
 library(xtable)
 library(MCMCpack)
-install.packages("NormalLaplace")
 library(NormalLaplace)
 
 codafit_stan_draws_profit <- readRDS("output/tailored_hierarchical_pdf_microcredit_output_PLN_4000_iters_codafit.RDS")

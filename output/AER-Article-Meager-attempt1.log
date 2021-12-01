@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  1 DEC 2021 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  1 DEC 2021 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -160,29 +160,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box73
 )
-(./AER-Article-Meager-attempt1.aux
-
-LaTeX Warning: Label `model fit back' multiply defined.
-
-
-LaTeX Warning: Label `big consumption table back' multiply defined.
-
-
-LaTeX Warning: Label `big profit table back' multiply defined.
-
-
-LaTeX Warning: Label `big consumption table back' multiply defined.
-
-
-LaTeX Warning: Label `big profit table back' multiply defined.
-
-
-LaTeX Warning: Label `model fit back' multiply defined.
-
-
-LaTeX Warning: Label `big profit table back' multiply defined.
-
-)
+No file AER-Article-Meager-attempt1.aux.
 \openout1 = `AER-Article-Meager-attempt1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -199,7 +177,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
- (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count196
 \scratchdimen=\dimen152
@@ -230,7 +208,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 [4] [5] [6] [7] [8] [9] [10] [11]
 
-LaTeX Warning: Reference `*' on page 12 undefined on input line 175.
+LaTeX Warning: Reference `model fit' on page 12 undefined on input line 175.
 
 [12] [13]
 Overfull \hbox (3.48442pt too wide) in paragraph at lines 205--205
@@ -254,52 +232,69 @@ Overfull \hbox (64.76292pt too wide) detected at line 230
 
 [15]
 
-LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+LaTeX Warning: Reference `posterior general quantiles' on page 16 undefined on 
+input line 240.
 
 
-LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+LaTeX Warning: Reference `big consumption table' on page 16 undefined on input 
+line 240.
 
 
-LaTeX Warning: Reference `*' on page 16 undefined on input line 240.
+LaTeX Warning: Reference `big profit table' on page 16 undefined on input line 
+240.
 
 
-LaTeX Warning: Reference `*' on page 16 undefined on input line 242.
+LaTeX Warning: Reference `big consumption table' on page 16 undefined on input 
+line 242.
 
 
-LaTeX Warning: Reference `*' on page 16 undefined on input line 242.
+LaTeX Warning: Reference `big profit table' on page 16 undefined on input line 
+242.
 
 [16]
 
-LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+LaTeX Warning: Reference `posterior predicted quantiles' on page 17 undefined o
+n input line 247.
 
 
-LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+LaTeX Warning: Reference `big consumption table' on page 17 undefined on input 
+line 247.
 
 
-LaTeX Warning: Reference `*' on page 17 undefined on input line 247.
+LaTeX Warning: Reference `big profit table' on page 17 undefined on input line 
+247.
 
 
-LaTeX Warning: Reference `*' on page 17 undefined on input line 250.
+LaTeX Warning: Reference `model fit' on page 17 undefined on input line 250.
 
 
-LaTeX Warning: Reference `*' on page 17 undefined on input line 250.
+LaTeX Warning: Reference `complex quantiles' on page 17 undefined on input line
+ 250.
 
 
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [17]
 
-LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
+LaTeX Warning: Reference `consumption posterior general quantiles pb split' on 
+page 18 undefined on input line 257.
 
 
-LaTeX Warning: Reference `*' on page 18 undefined on input line 257.
+LaTeX Warning: Reference `posterior mean quantiles profit pb split' on page 18 
+undefined on input line 257.
+
+
+LaTeX Warning: Reference `posterior odds PB table' on page 18 undefined on inpu
+t line 259.
 
 [18]
 
-LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
+LaTeX Warning: Reference `big consumption table' on page 19 undefined on input 
+line 268.
 
 
-LaTeX Warning: Reference `*' on page 19 undefined on input line 268.
+LaTeX Warning: Reference `big profit table' on page 19 undefined on input line 
+268.
 
 
 Underfull \vbox (badness 5359) has occurred while \output is active []
@@ -509,19 +504,14 @@ File: posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf Graphic file
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_0_lognorm
 al.pdf  used on input line 535.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf, id=269, 469.755p
-t x 433.62pt>
+<posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf, id=269, 187.7012
+5pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf Graphic file
  (type pdf)
 <use posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_1_lognorm
 al.pdf  used on input line 536.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
-
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 535--536
- [] 
- []
-
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 <posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf, id=270, 187
 .70125pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf Graphic
@@ -530,19 +520,14 @@ File: posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf Graphic
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_0_lo
 gnormal.pdf  used on input line 537.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf, id=271, 469
-.755pt x 433.62pt>
+<posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf, id=271, 187
+.70125pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf Graphic
  file (type pdf)
 <use posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_1_lo
 gnormal.pdf  used on input line 538.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
-
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 537--538
- [] 
- []
-
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 <posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf, id=272, 187.70125
 pt x 172.645pt>
 File: posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf Graphic file 
@@ -551,21 +536,17 @@ File: posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf Graphic file
 Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_0_lognorma
 l.pdf  used on input line 539.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf, id=273, 469.755pt
- x 433.62pt>
+<posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf, id=273, 187.70125
+pt x 172.645pt>
 File: posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf Graphic file 
 (type pdf)
 <use posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_1_lognorma
 l.pdf  used on input line 540.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
-
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 539--540
- [] 
- []
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
 
-LaTeX Warning: Float too large for page by 1331.17984pt on input line 542.
+LaTeX Warning: Float too large for page by 27.32301pt on input line 542.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -578,19 +559,14 @@ e pdf)
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_0_lognormal.pd
 f  used on input line 550.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf, id=275, 469.755pt x 4
-33.62pt>
+<posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf, id=275, 187.70125pt x
+ 172.645pt>
 File: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf Graphic file (typ
 e pdf)
 <use posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pd
 f  used on input line 551.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
-
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 550--551
- [] 
- []
-
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 <posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf, id=276, 187.70125pt
  x 172.645pt>
 File: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf Graphic file (t
@@ -599,19 +575,14 @@ ype pdf)
 Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.
 pdf  used on input line 552.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf, id=277, 469.755pt x
- 433.62pt>
+<posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf, id=277, 187.70125pt
+ x 172.645pt>
 File: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf Graphic file (t
 ype pdf)
 <use posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.
 pdf  used on input line 553.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
-
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 552--553
- [] 
- []
-
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 <posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf, id=278, 187.701
 25pt x 172.645pt>
 File: posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf Graphic fil
@@ -620,21 +591,16 @@ e (type pdf)
 Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_0_lognor
 mal.pdf  used on input line 554.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf, id=279, 469.755
-pt x 433.62pt>
+<posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf, id=279, 187.701
+25pt x 172.645pt>
 File: posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf Graphic fil
 e (type pdf)
 <use posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_1_lognor
 mal.pdf  used on input line 555.
-(pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
+(pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
-Overfull \hbox (84.21902pt too wide) in paragraph at lines 554--556
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 1343.7354pt on input line 557.
+LaTeX Warning: Float too large for page by 39.87857pt on input line 557.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -697,17 +663,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2252 strings out of 480608
- 39514 string characters out of 5903631
- 286997 words of memory out of 5000000
+ 2250 strings out of 480608
+ 39451 string characters out of 5903631
+ 286398 words of memory out of 5000000
  18119 multiletter control sequences out of 15000+600000
  541252 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,29p,2700b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,29p,2698b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/rachaelmeager/Library/texlive/2020/texmf-var/fonts/pk/ljfour/public/
 bbm/bbm10.657pk>{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
@@ -730,7 +696,7 @@ texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on AER-Article-Meager-attempt1.pdf (35 pages, 474975 bytes).
+Output written on AER-Article-Meager-attempt1.pdf (35 pages, 474824 bytes).
 PDF statistics:
  483 PDF objects out of 1000 (max. 8388607)
  363 compressed objects within 4 object streams

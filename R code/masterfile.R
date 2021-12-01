@@ -1,6 +1,18 @@
 # Masterfile for Aggregating Distributional Treatment Effects 
 
 
+##### PRELIMINARIES #####
+
+installation_needed  <- TRUE 
+loading_needed <- TRUE
+package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
+                  "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
+                  "boot", "gridExtra", "stargazer", "data.table", "extraDistr", "NormalLaplace")
+if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
+if(loading_needed){lapply(package_list, require, character.only = TRUE)}
+
+# depending on versions, the above occasionally needs you to confirm if you want to install from source or not
+
 ##### MAIN PAPER #####
 
 ## MCMC Models 
@@ -65,7 +77,6 @@ source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE)
 # produces table 3
 source("R code/bayesian tests of equality.R", print.eval = TRUE) 
 
-# Rm token is here. you need to add the kurtosis computations!!!! 
 
 ##### ONLINE APPENDICES #####
 

@@ -10,11 +10,11 @@
 
 ### Preliminaries and Data Intake ###
 
-installation_needed  <- TRUE 
+installation_needed  <- FALSE
 loading_needed <- TRUE
 package_list <- c('ggplot2', 'rstan','reshape','reshape2','coda','xtable', 'dplyr', 'Runuran', 'testthat',
                   "MCMCpack", "gtools", 'gPdtest', 'fBasics',"PtProcess", "VGAM", "MASS","quantreg",
-                  "boot", "gridExtra", "stargazer", "data.table")
+                  "boot", "gridExtra", "stargazer", "data.table", "extraDistr", "NormalLaplace")
 if(installation_needed){install.packages(package_list, repos='http://cran.us.r-project.org')}
 if(loading_needed){lapply(package_list, require, character.only = TRUE)}
 

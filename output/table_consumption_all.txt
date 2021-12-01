@@ -1,6 +1,6 @@
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Thu, Nov 25, 2021 - 19:24:21
+% Date and time: Wed, Dec 01, 2021 - 16:50:48
 \begin{table}[!htbp] \centering 
   \caption{} 
   \label{} 
@@ -43,7 +43,7 @@ function (which = dev.cur())
     .External(C_devoff, as.integer(which))
     dev.cur()
 }
-<bytecode: 0x105f08078>
+<bytecode: 0x7fbaf6de0a98>
 <environment: namespace:grDevices>
 [[1]]
 [1] TRUE
@@ -105,7 +105,7 @@ function (which = dev.cur())
 [1] 15000    10
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Thu, Nov 25, 2021 - 19:24:25
+% Date and time: Wed, Dec 01, 2021 - 16:50:53
 \begin{table}[!htbp] \centering 
   \caption{Posterior odds that effects are equal for groups PB = 0 and 1} 
   \label{} 
@@ -115,9 +115,9 @@ function (which = dev.cur())
  & Quantile & Tolerance = 0.5 USD PPP & 1 USD PPP & 3 USD PPP & 5 USD PPP \\ 
 \hline \\[-1.8ex] 
 1 & $0.050$ & $0.219$ & $0.275$ & $0.426$ & $0.507$ \\ 
-2 & $0.150$ & $0.608$ & $0.634$ & $0.697$ & $0.734$ \\ 
+2 & $0.150$ & $0.608$ & $0.633$ & $0.697$ & $0.734$ \\ 
 3 & $0.250$ & $0.688$ & $0.718$ & $0.793$ & $0.830$ \\ 
-4 & $0.350$ & $0.588$ & $0.633$ & $0.761$ & $0.826$ \\ 
+4 & $0.350$ & $0.589$ & $0.633$ & $0.761$ & $0.826$ \\ 
 5 & $0.450$ & $0.425$ & $0.482$ & $0.654$ & $0.756$ \\ 
 6 & $0.550$ & $0.276$ & $0.341$ & $0.534$ & $0.660$ \\ 
 7 & $0.650$ & $0.165$ & $0.220$ & $0.401$ & $0.536$ \\ 

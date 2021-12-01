@@ -74,18 +74,21 @@ This enumeration can be found in /R code/masterfile.R
 
 There are two ways to interact with the paper. I recommend the first. 
 
-6.A. Taking the MCMC output stored in the subfolder "output" as given:
+6.A. - Fully Automated (Taking the MCMC output stored in the subfolder "output" as given) 
 
 1. Open the file aggregation-list-TEs.Rproj in R. 
 2. Run source("/R code/masterfile.R")
 
-6.B 
+6.B - May require manual adjustments (to configure rStan)
 
-1. Install rstan using the instructions https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+1. Install and check rstan's operation using the instructions https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
 2. Open the file aggregation-list-TEs.Rproj in R. 
 3. Open the file /R code/masterfile.R in R.
 4. Go to line 11 of the masterfile and set rerun_MCMC <- TRUE 
 5. Run source("/R code/masterfile.R"). 
+
+Note: The reason this may not be possible to implement fully automated is that step 1 can sometimes require a small number of tailored interventions to ensure configuration is correct depending on the particular machine and OS. The reason for this is that rStan requires the machine to have on it a C++ compiler that can be called from R. Most machines do by default, but not all. 
+
 
 7. TABLES AND FIGURES 
 
