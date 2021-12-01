@@ -1,0 +1,1151 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  1 DEC 2021 18:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Online-Appendix.tex
+(./Online-Appendix.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count175
+\calc@Bcount=\count176
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count177
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+\AM@pagewidth=\dimen139
+\AM@pageheight=\dimen140
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box45
+\AM@global@opts=\toks16
+\AM@pagecnt=\count178
+\AM@toc@title=\toks17
+\c@AM@survey=\count179
+\AM@templatesizebox=\box46
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count180
+\l__pdf_internal_box=\box47
+)
+(./Online-Appendix.aux)
+\openout1 = `Online-Appendix.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+\AtBeginShipoutBox=\box48
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count181
+\scratchdimen=\dimen141
+\scratchbox=\box49
+\nofMPsegments=\count182
+\nofMParguments=\count183
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count184
+\MPscratchDim=\dimen142
+\MPnumerator=\count185
+\makeMPintoPDFobject=\count186
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+<App-A-Mosteller-and-dithering.pdf, id=1, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf  used on input line 
+7.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf  used on input line 
+7.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<App-A-Mosteller-and-dithering.pdf, id=4, page=1, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 1>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page1 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 1>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page1 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 1>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page1 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 1>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page1 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 1>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page1 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [2 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=60, page=2, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 2>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page2 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 2>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page2 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 2>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page2 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [3 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=77, page=3, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 3>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page3 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 3>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page3 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 3>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page3 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [4 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=86, page=4, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 4>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page4 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 4>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page4 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 4>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page4 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [5 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=100, page=5, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 5>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page5 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 5>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page5 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 5>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page5 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+
+[6 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=114, page=6, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 6>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page6 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 6>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page6 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 6>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page6 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [7 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=119, page=7, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 7>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page7 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 7>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page7 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 7>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page7 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [8 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=123, page=8, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 8>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page8 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 8>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page8 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 8>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page8 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [9 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=127, page=9, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 9>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page9 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 9>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page9 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 9>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page9 used on inpu
+t line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [10 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=131, page=10, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 10>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page10 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 10>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page10 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 10>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page10 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [11 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=178, page=11, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 11>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page11 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 11>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page11 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 11>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page11 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [12 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=202, page=12, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 12>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page12 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 12>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page12 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 12>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page12 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [13 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=227, page=13, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 13>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page13 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 13>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page13 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 13>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page13 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [14 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=239, page=14, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 14>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page14 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 14>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page14 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 14>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page14 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [15 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=243, page=15, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 15>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page15 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 15>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page15 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 15>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page15 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [16 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=247, page=16, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 16>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page16 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 16>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page16 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 16>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page16 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+
+[17 <./App-A-Mosteller-and-dithering.pdf>]
+<App-A-Mosteller-and-dithering.pdf, id=251, page=17, 597.50829pt x 845.0471pt>
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 17>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page17 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 17>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page17 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-A-Mosteller-and-dithering.pdf Graphic file (type pdf)
+<use App-A-Mosteller-and-dithering.pdf, page 17>
+Package pdftex.def Info: App-A-Mosteller-and-dithering.pdf , page17 used on inp
+ut line 7.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [18 <./App-A-Mosteller-and-dithering.pdf>]
+<App-B-shrinkage-on-TEs-vs-means.pdf, id=260, 597.50829pt x 845.0471pt>
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf  used on input lin
+e 8.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf  used on input lin
+e 8.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<App-B-shrinkage-on-TEs-vs-means.pdf, id=263, page=1, 597.50829pt x 845.0471pt>
+
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 1>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page1 used on in
+put line 8.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 1>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page1 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 1>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page1 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 1>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page1 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 1>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page1 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [19 <./App-B-shrinkage-on-TEs-vs-means.pdf>]
+<App-B-shrinkage-on-TEs-vs-means.pdf, id=295, page=2, 597.50829pt x 845.0471pt>
+
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 2>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page2 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 2>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page2 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 2>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page2 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [20 <./App-B-shrinkage-on-TEs-vs-means.pdf>]
+<App-B-shrinkage-on-TEs-vs-means.pdf, id=337, page=3, 597.50829pt x 845.0471pt>
+
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 3>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page3 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 3>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page3 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 3>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page3 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [21 <./App-B-shrinkage-on-TEs-vs-means.pdf>]
+<App-B-shrinkage-on-TEs-vs-means.pdf, id=341, page=4, 597.50829pt x 845.0471pt>
+
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 4>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page4 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 4>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page4 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-B-shrinkage-on-TEs-vs-means.pdf Graphic file (type pdf)
+<use App-B-shrinkage-on-TEs-vs-means.pdf, page 4>
+Package pdftex.def Info: App-B-shrinkage-on-TEs-vs-means.pdf , page4 used on in
+put line 8.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [22 <./App-B-shrinkage-on-TEs-vs-means.pdf>]
+<App-C-tabular.pdf, id=345, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf>
+Package pdftex.def Info: App-C-tabular.pdf  used on input line 9.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf>
+Package pdftex.def Info: App-C-tabular.pdf  used on input line 9.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<App-C-tabular.pdf, id=348, page=1, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 1>
+Package pdftex.def Info: App-C-tabular.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 1>
+Package pdftex.def Info: App-C-tabular.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 1>
+Package pdftex.def Info: App-C-tabular.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 1>
+Package pdftex.def Info: App-C-tabular.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 1>
+Package pdftex.def Info: App-C-tabular.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [23 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=362, page=2, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 2>
+Package pdftex.def Info: App-C-tabular.pdf , page2 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 2>
+Package pdftex.def Info: App-C-tabular.pdf , page2 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 2>
+Package pdftex.def Info: App-C-tabular.pdf , page2 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [24 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=369, page=3, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 3>
+Package pdftex.def Info: App-C-tabular.pdf , page3 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 3>
+Package pdftex.def Info: App-C-tabular.pdf , page3 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 3>
+Package pdftex.def Info: App-C-tabular.pdf , page3 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [25 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=417, page=4, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 4>
+Package pdftex.def Info: App-C-tabular.pdf , page4 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 4>
+Package pdftex.def Info: App-C-tabular.pdf , page4 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 4>
+Package pdftex.def Info: App-C-tabular.pdf , page4 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [26 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=421, page=5, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 5>
+Package pdftex.def Info: App-C-tabular.pdf , page5 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 5>
+Package pdftex.def Info: App-C-tabular.pdf , page5 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 5>
+Package pdftex.def Info: App-C-tabular.pdf , page5 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [27 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=434, page=6, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 6>
+Package pdftex.def Info: App-C-tabular.pdf , page6 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 6>
+Package pdftex.def Info: App-C-tabular.pdf , page6 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 6>
+Package pdftex.def Info: App-C-tabular.pdf , page6 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [28 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=457, page=7, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 7>
+Package pdftex.def Info: App-C-tabular.pdf , page7 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 7>
+Package pdftex.def Info: App-C-tabular.pdf , page7 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 7>
+Package pdftex.def Info: App-C-tabular.pdf , page7 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [29 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=488, page=8, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 8>
+Package pdftex.def Info: App-C-tabular.pdf , page8 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 8>
+Package pdftex.def Info: App-C-tabular.pdf , page8 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 8>
+Package pdftex.def Info: App-C-tabular.pdf , page8 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [30 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=500, page=9, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 9>
+Package pdftex.def Info: App-C-tabular.pdf , page9 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 9>
+Package pdftex.def Info: App-C-tabular.pdf , page9 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 9>
+Package pdftex.def Info: App-C-tabular.pdf , page9 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [31 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=508, page=10, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 10>
+Package pdftex.def Info: App-C-tabular.pdf , page10 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 10>
+Package pdftex.def Info: App-C-tabular.pdf , page10 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 10>
+Package pdftex.def Info: App-C-tabular.pdf , page10 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [32 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=572, page=11, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 11>
+Package pdftex.def Info: App-C-tabular.pdf , page11 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 11>
+Package pdftex.def Info: App-C-tabular.pdf , page11 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 11>
+Package pdftex.def Info: App-C-tabular.pdf , page11 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [33 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=586, page=12, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 12>
+Package pdftex.def Info: App-C-tabular.pdf , page12 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 12>
+Package pdftex.def Info: App-C-tabular.pdf , page12 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 12>
+Package pdftex.def Info: App-C-tabular.pdf , page12 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [34 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=590, page=13, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 13>
+Package pdftex.def Info: App-C-tabular.pdf , page13 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 13>
+Package pdftex.def Info: App-C-tabular.pdf , page13 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 13>
+Package pdftex.def Info: App-C-tabular.pdf , page13 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [35 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=603, page=14, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 14>
+Package pdftex.def Info: App-C-tabular.pdf , page14 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 14>
+Package pdftex.def Info: App-C-tabular.pdf , page14 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 14>
+Package pdftex.def Info: App-C-tabular.pdf , page14 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [36 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=625, page=15, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 15>
+Package pdftex.def Info: App-C-tabular.pdf , page15 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 15>
+Package pdftex.def Info: App-C-tabular.pdf , page15 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 15>
+Package pdftex.def Info: App-C-tabular.pdf , page15 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [37 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=690, page=16, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 16>
+Package pdftex.def Info: App-C-tabular.pdf , page16 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 16>
+Package pdftex.def Info: App-C-tabular.pdf , page16 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 16>
+Package pdftex.def Info: App-C-tabular.pdf , page16 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [38 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=755, page=17, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 17>
+Package pdftex.def Info: App-C-tabular.pdf , page17 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 17>
+Package pdftex.def Info: App-C-tabular.pdf , page17 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 17>
+Package pdftex.def Info: App-C-tabular.pdf , page17 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [39 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=777, page=18, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 18>
+Package pdftex.def Info: App-C-tabular.pdf , page18 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 18>
+Package pdftex.def Info: App-C-tabular.pdf , page18 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 18>
+Package pdftex.def Info: App-C-tabular.pdf , page18 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [40 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=841, page=19, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 19>
+Package pdftex.def Info: App-C-tabular.pdf , page19 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 19>
+Package pdftex.def Info: App-C-tabular.pdf , page19 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 19>
+Package pdftex.def Info: App-C-tabular.pdf , page19 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [41 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=906, page=20, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 20>
+Package pdftex.def Info: App-C-tabular.pdf , page20 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 20>
+Package pdftex.def Info: App-C-tabular.pdf , page20 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 20>
+Package pdftex.def Info: App-C-tabular.pdf , page20 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [42 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=910, page=21, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 21>
+Package pdftex.def Info: App-C-tabular.pdf , page21 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 21>
+Package pdftex.def Info: App-C-tabular.pdf , page21 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 21>
+Package pdftex.def Info: App-C-tabular.pdf , page21 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [43 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=923, page=22, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 22>
+Package pdftex.def Info: App-C-tabular.pdf , page22 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 22>
+Package pdftex.def Info: App-C-tabular.pdf , page22 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 22>
+Package pdftex.def Info: App-C-tabular.pdf , page22 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [44 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=930, page=23, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 23>
+Package pdftex.def Info: App-C-tabular.pdf , page23 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 23>
+Package pdftex.def Info: App-C-tabular.pdf , page23 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 23>
+Package pdftex.def Info: App-C-tabular.pdf , page23 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [45 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=934, page=24, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 24>
+Package pdftex.def Info: App-C-tabular.pdf , page24 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 24>
+Package pdftex.def Info: App-C-tabular.pdf , page24 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 24>
+Package pdftex.def Info: App-C-tabular.pdf , page24 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [46 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=938, page=25, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 25>
+Package pdftex.def Info: App-C-tabular.pdf , page25 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 25>
+Package pdftex.def Info: App-C-tabular.pdf , page25 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 25>
+Package pdftex.def Info: App-C-tabular.pdf , page25 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [47 <./App-C-tabular.pdf>]
+<App-C-tabular.pdf, id=972, page=26, 597.50829pt x 845.0471pt>
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 26>
+Package pdftex.def Info: App-C-tabular.pdf , page26 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 26>
+Package pdftex.def Info: App-C-tabular.pdf , page26 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-C-tabular.pdf Graphic file (type pdf)
+<use App-C-tabular.pdf, page 26>
+Package pdftex.def Info: App-C-tabular.pdf , page26 used on input line 9.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+
+[48 <./App-C-tabular.pdf>]
+<App-D-bounds-input.pdf, id=976, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf>
+Package pdftex.def Info: App-D-bounds-input.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf>
+Package pdftex.def Info: App-D-bounds-input.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<App-D-bounds-input.pdf, id=979, page=1, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 1>
+Package pdftex.def Info: App-D-bounds-input.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 1>
+Package pdftex.def Info: App-D-bounds-input.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 1>
+Package pdftex.def Info: App-D-bounds-input.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 1>
+Package pdftex.def Info: App-D-bounds-input.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 1>
+Package pdftex.def Info: App-D-bounds-input.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [49 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=992, page=2, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 2>
+Package pdftex.def Info: App-D-bounds-input.pdf , page2 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 2>
+Package pdftex.def Info: App-D-bounds-input.pdf , page2 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 2>
+Package pdftex.def Info: App-D-bounds-input.pdf , page2 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [50 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=996, page=3, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 3>
+Package pdftex.def Info: App-D-bounds-input.pdf , page3 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 3>
+Package pdftex.def Info: App-D-bounds-input.pdf , page3 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 3>
+Package pdftex.def Info: App-D-bounds-input.pdf , page3 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [51 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1032, page=4, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 4>
+Package pdftex.def Info: App-D-bounds-input.pdf , page4 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 4>
+Package pdftex.def Info: App-D-bounds-input.pdf , page4 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 4>
+Package pdftex.def Info: App-D-bounds-input.pdf , page4 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [52 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1044, page=5, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 5>
+Package pdftex.def Info: App-D-bounds-input.pdf , page5 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 5>
+Package pdftex.def Info: App-D-bounds-input.pdf , page5 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 5>
+Package pdftex.def Info: App-D-bounds-input.pdf , page5 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+
+[53 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1053, page=6, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 6>
+Package pdftex.def Info: App-D-bounds-input.pdf , page6 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 6>
+Package pdftex.def Info: App-D-bounds-input.pdf , page6 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 6>
+Package pdftex.def Info: App-D-bounds-input.pdf , page6 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [54 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1062, page=7, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 7>
+Package pdftex.def Info: App-D-bounds-input.pdf , page7 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 7>
+Package pdftex.def Info: App-D-bounds-input.pdf , page7 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 7>
+Package pdftex.def Info: App-D-bounds-input.pdf , page7 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [55 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1067, page=8, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 8>
+Package pdftex.def Info: App-D-bounds-input.pdf , page8 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 8>
+Package pdftex.def Info: App-D-bounds-input.pdf , page8 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 8>
+Package pdftex.def Info: App-D-bounds-input.pdf , page8 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [56 <./App-D-bounds-input.pdf>]
+<App-D-bounds-input.pdf, id=1132, page=9, 597.50829pt x 845.0471pt>
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 9>
+Package pdftex.def Info: App-D-bounds-input.pdf , page9 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 9>
+Package pdftex.def Info: App-D-bounds-input.pdf , page9 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: App-D-bounds-input.pdf Graphic file (type pdf)
+<use App-D-bounds-input.pdf, page 9>
+Package pdftex.def Info: App-D-bounds-input.pdf , page9 used on input line 10.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [57 <./App-D-bounds-input.pdf>] (./Online-Appendix.aux) ) 
+Here is how much of TeX's memory you used:
+ 2887 strings out of 480608
+ 47604 string characters out of 5903631
+ 280667 words of memory out of 5000000
+ 18763 multiletter control sequences out of 15000+600000
+ 535373 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,19n,49p,262b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmbxi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/l
+m/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri1
+2.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb>
+Output written on Online-Appendix.pdf (57 pages, 883431 bytes).
+PDF statistics:
+ 1237 PDF objects out of 1440 (max. 8388607)
+ 933 compressed objects within 10 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+

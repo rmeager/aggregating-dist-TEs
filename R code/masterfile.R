@@ -78,16 +78,3 @@ source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE)
 source("R code/bayesian tests of equality.R", print.eval = TRUE) 
 
 
-##### ONLINE APPENDICES #####
-
-# first, here are the appendix results you can generate reasonably quickly without running additional MCMC files 
-
-
-# second, here are the appendix results that you need to run MCMC to generate
-# sadly, putting all the MCMC output for all the online appendix files is too big for github to handle 
-# you can run them yourself on the data though, if you want to use them toggle this on
-run_online_appendices_MCMC <- FALSE
-if(run_online_appendices_MCMC == TRUE){
-  
-  
-}
