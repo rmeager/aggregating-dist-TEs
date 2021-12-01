@@ -54,6 +54,47 @@ This is the file I actually used to generate the dataset, but I do not intend fo
 
 4. COMPUTATIONAL REQUIREMENTS
 
-In the current repository I supply you with the output of the MCMC analysis run in rStan so that you do not need to use that package yourself. Therefore, the script /R code/masterfile.R can be run in R on any machine. On my current machine, 
+In the current repository I supply you with the output of the MCMC analysis run in rStan so that you do not need to use that package yourself. Therefore, the script /R code/masterfile.R can be run in R on any machine. This takes about 15-25 minutes on my current machine which runs MacOS Catalina 10.15.7: 
+Processor Name:	Quad-Core Intel Core i5
+  Processor Speed:	2 GHz
+  Number of Processors:	1
+  Total Number of Cores:	4
+  L2 Cache (per Core):	512 KB
+  L3 Cache:	6 MB
+  Hyper-Threading Technology:	Enabled
+  Memory:	32 GB
+
+Running all the MCMC would take about 72 hours on a high performance server, and likely. 
+
+5. DESCRIPTION OF PROGRAMS / CODE 
+
+This enumeration can be found in /R code/masterfile.R 
+
+6. INSTRUCTIONS TO REPLICATORS 
+
+There are two ways to interact with the paper. I recommend the first. 
+
+6.A. Taking the MCMC output stored in the subfolder "output" as given:
+
+1. Open the file aggregation-list-TEs.Rproj in R. 
+2. Run source("/R code/masterfile.R")
+
+6.B 
+
+1. Install rstan using the instructions https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+2. Open the file aggregation-list-TEs.Rproj in R. 
+3. Open the file /R code/masterfile.R in R.
+4. Go to line 11 of the masterfile and set rerun_MCMC <- TRUE 
+5. Run source("/R code/masterfile.R"). 
+
+7. TABLES AND FIGURES 
+
+This enumeration can be found in /R code/masterfile.R 
+
+8. REFERENCES 
+
+Contained in section 2. 
+
+
 
 

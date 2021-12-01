@@ -59,7 +59,6 @@ source("R code/graphics and computation of quantiles from tailored hierarchical 
 source("R code/graphics and computation of quantiles from tailored hierarchical pdf lognormal models pb split.R", print.eval  = TRUE)
 
 
-
 ## TABLES
 # produces tables 1 and 2 
 source("R code/tables-full-results-profit-consumption.R", print.eval = TRUE) 
