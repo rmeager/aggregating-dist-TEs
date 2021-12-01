@@ -1,46 +1,56 @@
-README for the Meager Distributional Effects Paper Repository
+README for Meager (2021) "Aggregating Distributional Treatment Effects"
 
-This repository contains all scripts needed to generate the main results of the paper entitled “Aggregating Distributional Treatment Effects: A Bayesian Hierarchical Analysis of the Microcredit Literature.” It does not contain all scripts for all Appendices, but will be updated with the relevant Appendices during the revision process. 
+1. OVERVIEW 
 
-The repo contains: 
-1.  A data subfolder, with the combined microcredit data file I used throughout the analysis.
-2. A stan-models subfolder, with all the model scripts written in the stan language.
-3. An R code subfolder with all R scripts for the analysis and graphics/tables. 
-4. An output folder with the manuscript tex file. 
 
-The project, which began when I was in graduate school, has a somewhat bespoke R script structure. To reproduce the paper one need only interact with the R code subfolder and then compile the tex file in the output folder. However, the R code subfolder contains two distinct types of files that must be used as follows. 
+This repository contains all R scripts needed to generate the main results of the paper entitled “Aggregating Distributional Treatment Effects: A Bayesian Hierarchical Analysis of the Microcredit Literature.” In its default state the masterfile.R generates the paper's tables and figures from saved MCMC output which takes about 15 minutes. If rStan is installed, then the masterfile can be toggled to run the MCMC scripts from the raw data, which takes about 72 hours on a high performance computing server. 
 
-1. ANALYSIS AND RESULTS GENERATION SCRIPTS 
+2. DATA AVAILABILITY AND PROVENANCE STATEMENTS
 
-All R files beginning with “tailored-hierarchical…” run the hierarchical models that underlie the main results of the papers and produce the output processed by the graphics scripts. 
+This paper uses external data from 7 sources:
 
-All R files beginning with “tailored-no-pooling…” and “tailored-full-pooling…” run these versions of the lognormal model for comparison purposes, informing table 2 for profit and results comparison more broadly.  
+(a) Angelucci, Manuela, Dean Karlan, and Jonathan Zinman. 2015. "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco." American Economic Journal: Applied Economics, 7 (1): 151-82.
+DOI: 10.1257/app.20130537 
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130537
 
-There are 2 important features of the analysis scripts above, worth noting: 
 
-(A) The above files call the stan models in the stan-models subfolder into R. RStan performs Hamiltonian Monte Carlo simulations to characterise posterior distributions. It requires the machine running the operation to have a C++ compiler that R can talk to installed on it. This is common now on modern machines but may not be common on remote servers, and the code will not run otherwise. Please see “Getting started in RStan” for information on this: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+(b) Attanasio, Orazio, Britta Augsburg, Ralph De Haas, Emla Fitzsimons, and Heike Harmgart. 2015. "The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia." American Economic Journal: Applied Economics, 7 (1): 90-122.
+DOI: 10.1257/app.20130489
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130489
 
-(B) These files fit hierarchical distributional models for data sets variously comprised of 10,000-40,000 households (depending on the outcome variable), and as such, each model takes several hours to run even on a powerful server. The paper is composed of the results of more than 20 of these model runs. Running this entire repository will take several days at minimum. I have therefore additionally provided the model output from each file as RData files in the Dropbox output folder of this repository here: 
+(c) Augsburg, Britta, Ralph De Haas, Heike Harmgart, and Costas Meghir. 2015. "The Impacts of Microcredit: Evidence from Bosnia and Herzegovina." American Economic Journal: Applied Economics, 7 (1): 183-203.
+DOI: 10.1257/app.20130272
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130272
 
-https://www.dropbox.com/sh/9n1qgjeokxg9tun/AADe_Mcg7v95ldadD3Tdk0Vva?dl=0
 
-2. GRAPHICS AND TABLE PROCESSING SCRIPTS
+(d) Banerjee, Abhijit, Esther Duflo, Rachel Glennerster, and Cynthia Kinnan. 2015. "The Miracle of Microfinance? Evidence from a Randomized Evaluation." American Economic Journal: Applied Economics, 7 (1): 22-53.
+DOI: 10.1257/app.20130533
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130533
 
-The file “graphics and computation of quantiles lognormal models business variables.R” generates the business variable results shown in figures 1, 2 and prepares .rds objects for input into table 2.  
+(e) Crépon, Bruno, Florencia Devoto, Esther Duflo, and William Parienté. 2015. "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco." American Economic Journal: Applied Economics, 7 (1): 123-50.
+DOI: 10.1257/app.20130535
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130535
 
-The file “graphics and computation of quantiles lognormal consumption variables.R” generates the consumption variable results shown in figures 1, 2 and prepares .rds objects for input into table 1. 
+(f) Karlan D, Zinman J. Microcredit in theory and practice: using randomized credit scoring for impact evaluation. Science. 2011 Jun 10;332(6035):1278-84. 
+DOI: 10.1126/science.1200138.
+URL: https://www.science.org/doi/10.1126/science.1200138
 
-The file “graphics for no pooling models and site specific output lognormal.R” generates the no pooling table results for profit, and some deprecated figures for all business variables which you may enjoy should you wish to see the no pooling results with the partial pooling results side by side. 
+(g) Tarozzi, Alessandro, Jaikishan Desai, and Kristin Johnson. 2015. "The Impacts of Microcredit: Evidence from Ethiopia." American Economic Journal: Applied Economics, 7 (1): 54-89.
+DOI: 10.1257/app.20130475
+URL: https://www.aeaweb.org/articles?id=10.1257/app.20130475
 
-The file “tables-full-results-profit-consumption.R” generates the results displayed in tables 1 and 2. It can only be run AFTER the first 3 graphics files listed above, because it exploits the subtables created and stored as .RDS objects by those scripts. 
 
-The file “Bayesian tests of equality.R” generates table 3. 
+All data are publicly available. 
 
-The file “posterior-predictive-graphic-comparison-lognormal-pareto-full-sim.R” generates figure 3. 
+3. DATASET LIST 
 
-The file “graphics and computation of quantiles composite tail model.R” generates panel 1 of figure 4. The file “graphics and computation of quantiles from PLN model.R” generates panel 2 of figure 4. Panel 3 of figure 4 is the profit graphic from figure 1. 
+Wrangling the 7 sources above is formidable; you should not spend months of your life on it like I did. Moreover, it uses Stata, software to which not all users can afford access. Therefore, I have provided a single dataset file of the relevant components of the data used in my analysis, cleaned and processed. 
 
-The file “graphics and computation of quantiles from tailored hierarchical pdf lognormal models consumption types pb split.R” generates figure 5. 
+The data file is /data/microcredit_project_data.RData
 
-The file “graphics and computation of quantiles from tailored hierarchical pdf lognormal models pb split.R” generates figure 6.
+For your own interest you can see how it was generated by examining the script /data/import_organise_data_tracking_script.R 
+
+I do not intend for you to run this script, as directory structuring alone would be a task for many days, so treat it as a sequence of instructions for how to generate the data set I use from the external sources.
+
+
 
