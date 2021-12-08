@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  8 DEC 2021 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  8 DEC 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -257,130 +257,130 @@ Underfull \vbox (badness 5359) has occurred while \output is active []
 
  [19]
 [20]
-Overfull \hbox (128.25558pt too wide) in paragraph at lines 301--347
+Overfull \hbox (108.88622pt too wide) in paragraph at lines 301--345
 [] 
  []
 
 [21
 
 ]
-Overfull \hbox (139.56871pt too wide) in paragraph at lines 365--396
-[] 
+Overfull \hbox (121.6364pt too wide) in paragraph at lines 363--419
+ [] 
  []
 
 
-Overfull \hbox (35.98758pt too wide) in paragraph at lines 407--428
+Overfull \hbox (35.98758pt too wide) in paragraph at lines 431--452
  [] 
  []
 
 [22
 
 ] [23]
-<posterior_parent_quantile_TEs_consumption_lognormal.pdf, id=96, 187.70125pt x 
+<posterior_parent_quantile_TEs_consumption_lognormal.pdf, id=93, 187.70125pt x 
 172.645pt>
 File: posterior_parent_quantile_TEs_consumption_lognormal.pdf Graphic file (typ
 e pdf)
 <use posterior_parent_quantile_TEs_consumption_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_lognormal.pd
-f  used on input line 443.
+f  used on input line 467.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_profit_lognormal.pdf, id=97, 187.70125pt x 172.6
+<posterior_parent_quantile_TEs_profit_lognormal.pdf, id=94, 187.70125pt x 172.6
 45pt>
 File: posterior_parent_quantile_TEs_profit_lognormal.pdf Graphic file (type pdf
 )
 <use posterior_parent_quantile_TEs_profit_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_lognormal.pdf  us
-ed on input line 444.
+ed on input line 468.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf, id=98, 187.70125
+<posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf, id=95, 187.70125
 pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf Graphic file
  (type pdf)
 <use posterior_parent_quantile_TEs_consumerdurables_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_lognorm
-al.pdf  used on input line 445.
+al.pdf  used on input line 469.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_revenues_lognormal.pdf, id=99, 187.70125pt x 172
+<posterior_parent_quantile_TEs_revenues_lognormal.pdf, id=96, 187.70125pt x 172
 .645pt>
 File: posterior_parent_quantile_TEs_revenues_lognormal.pdf Graphic file (type p
 df)
 <use posterior_parent_quantile_TEs_revenues_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_lognormal.pdf  
-used on input line 446.
+used on input line 470.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_temptation_lognormal.pdf, id=100, 187.70125pt x 
-172.645pt>
+<posterior_parent_quantile_TEs_temptation_lognormal.pdf, id=97, 187.70125pt x 1
+72.645pt>
 File: posterior_parent_quantile_TEs_temptation_lognormal.pdf Graphic file (type
  pdf)
 <use posterior_parent_quantile_TEs_temptation_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_lognormal.pdf
-  used on input line 447.
+  used on input line 471.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_expenditures_lognormal.pdf, id=101, 187.70125pt 
-x 172.645pt>
+<posterior_parent_quantile_TEs_expenditures_lognormal.pdf, id=98, 187.70125pt x
+ 172.645pt>
 File: posterior_parent_quantile_TEs_expenditures_lognormal.pdf Graphic file (ty
 pe pdf)
 <use posterior_parent_quantile_TEs_expenditures_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_lognormal.p
-df  used on input line 448.
+df  used on input line 472.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
 
-LaTeX Warning: Float too large for page by 27.32301pt on input line 450.
+LaTeX Warning: Float too large for page by 27.32301pt on input line 474.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<posterior_predicted_quantile_TEs_consumption_lognormal.pdf, id=102, 187.70125p
-t x 172.645pt>
+<posterior_predicted_quantile_TEs_consumption_lognormal.pdf, id=99, 187.70125pt
+ x 172.645pt>
 File: posterior_predicted_quantile_TEs_consumption_lognormal.pdf Graphic file (
 type pdf)
 <use posterior_predicted_quantile_TEs_consumption_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_consumption_lognormal
-.pdf  used on input line 459.
+.pdf  used on input line 483.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_predicted_quantile_TEs_profit_lognormal.pdf, id=103, 187.70125pt x 1
+<posterior_predicted_quantile_TEs_profit_lognormal.pdf, id=100, 187.70125pt x 1
 72.645pt>
 File: posterior_predicted_quantile_TEs_profit_lognormal.pdf Graphic file (type 
 pdf)
 <use posterior_predicted_quantile_TEs_profit_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_profit_lognormal.pdf 
- used on input line 460.
+ used on input line 484.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf, id=104, 187.7
+<posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf, id=101, 187.7
 0125pt x 172.645pt>
 File: posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf Graphic f
 ile (type pdf)
 <use posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_consumerdurables_logn
-ormal.pdf  used on input line 461.
+ormal.pdf  used on input line 485.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_predicted_quantile_TEs_revenues_lognormal.pdf, id=105, 187.70125pt x
+<posterior_predicted_quantile_TEs_revenues_lognormal.pdf, id=102, 187.70125pt x
  172.645pt>
 File: posterior_predicted_quantile_TEs_revenues_lognormal.pdf Graphic file (typ
 e pdf)
 <use posterior_predicted_quantile_TEs_revenues_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_revenues_lognormal.pd
-f  used on input line 462.
+f  used on input line 486.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_predicted_quantile_TEs_temptation_lognormal.pdf, id=106, 187.70125pt
+<posterior_predicted_quantile_TEs_temptation_lognormal.pdf, id=103, 187.70125pt
  x 172.645pt>
 File: posterior_predicted_quantile_TEs_temptation_lognormal.pdf Graphic file (t
 ype pdf)
 <use posterior_predicted_quantile_TEs_temptation_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_temptation_lognormal.
-pdf  used on input line 463.
+pdf  used on input line 487.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_predicted_quantile_TEs_expenditures_lognormal.pdf, id=107, 187.70125
+<posterior_predicted_quantile_TEs_expenditures_lognormal.pdf, id=104, 187.70125
 pt x 172.645pt>
 File: posterior_predicted_quantile_TEs_expenditures_lognormal.pdf Graphic file 
 (type pdf)
 <use posterior_predicted_quantile_TEs_expenditures_lognormal.pdf>
 Package pdftex.def Info: posterior_predicted_quantile_TEs_expenditures_lognorma
-l.pdf  used on input line 464.
+l.pdf  used on input line 488.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
-LaTeX Warning: Float too large for page by 27.32301pt on input line 466.
+LaTeX Warning: Float too large for page by 27.32301pt on input line 490.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -395,168 +395,168 @@ gnormal.pdf> <./posterior_predicted_quantile_TEs_consumerdurables_lognormal.pdf
 > <./posterior_predicted_quantile_TEs_revenues_lognormal.pdf> <./posterior_pred
 icted_quantile_TEs_temptation_lognormal.pdf> <./posterior_predicted_quantile_TE
 s_expenditures_lognormal.pdf>]
-<posterior_predictive_profit.pdf, id=224, 289.08pt x 172.645pt>
+<posterior_predictive_profit.pdf, id=221, 289.08pt x 172.645pt>
 File: posterior_predictive_profit.pdf Graphic file (type pdf)
 <use posterior_predictive_profit.pdf>
-Package pdftex.def Info: posterior_predictive_profit.pdf  used on input line 47
-4.
+Package pdftex.def Info: posterior_predictive_profit.pdf  used on input line 49
+8.
 (pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
-<posterior_predictive_revenues.pdf, id=225, 289.08pt x 172.645pt>
+<posterior_predictive_revenues.pdf, id=222, 289.08pt x 172.645pt>
 File: posterior_predictive_revenues.pdf Graphic file (type pdf)
 <use posterior_predictive_revenues.pdf>
 Package pdftex.def Info: posterior_predictive_revenues.pdf  used on input line 
-475.
+499.
 (pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
-<posterior_predictive_expenditures.pdf, id=226, 289.08pt x 172.645pt>
+<posterior_predictive_expenditures.pdf, id=223, 289.08pt x 172.645pt>
 File: posterior_predictive_expenditures.pdf Graphic file (type pdf)
 <use posterior_predictive_expenditures.pdf>
 Package pdftex.def Info: posterior_predictive_expenditures.pdf  used on input l
-ine 476.
+ine 500.
 (pdftex.def)             Requested size: 289.07928pt x 172.64456pt.
 
 
-LaTeX Warning: Float too large for page by 13.87857pt on input line 479.
+LaTeX Warning: Float too large for page by 13.87857pt on input line 503.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [26 <./posterior_predictive_profit.pdf> <./posterior_predictive_revenues.pdf> <
 ./posterior_predictive_expenditures.pdf>]
-<posterior_parent_quantile_TEs_profit_composite.pdf, id=245, 187.70125pt x 172.
+<posterior_parent_quantile_TEs_profit_composite.pdf, id=242, 187.70125pt x 172.
 645pt>
 File: posterior_parent_quantile_TEs_profit_composite.pdf Graphic file (type pdf
 )
 <use posterior_parent_quantile_TEs_profit_composite.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_composite.pdf  us
-ed on input line 492.
+ed on input line 516.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_profit_PLN.pdf, id=246, 187.70125pt x 172.645pt>
+<posterior_parent_quantile_TEs_profit_PLN.pdf, id=243, 187.70125pt x 172.645pt>
 
 File: posterior_parent_quantile_TEs_profit_PLN.pdf Graphic file (type pdf)
 <use posterior_parent_quantile_TEs_profit_PLN.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_PLN.pdf  used on 
-input line 493.
+input line 517.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 File: posterior_parent_quantile_TEs_profit_lognormal.pdf Graphic file (type pdf
 )
 <use posterior_parent_quantile_TEs_profit_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_lognormal.pdf  us
-ed on input line 494.
+ed on input line 518.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
 
-LaTeX Warning: Float too large for page by 104.87857pt on input line 497.
+LaTeX Warning: Float too large for page by 104.87857pt on input line 521.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27 <./posterior_parent_quantile_TEs_profit_composite.pdf> <./posterior_parent_
 quantile_TEs_profit_PLN.pdf>]
-<posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf, id=268, 187.7012
+<posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf, id=265, 187.7012
 5pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf Graphic file
  (type pdf)
 <use posterior_parent_quantile_TEs_consumption_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_0_lognorm
-al.pdf  used on input line 514.
+al.pdf  used on input line 538.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf, id=269, 187.7012
+<posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf, id=266, 187.7012
 5pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf Graphic file
  (type pdf)
 <use posterior_parent_quantile_TEs_consumption_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumption_pb_1_lognorm
-al.pdf  used on input line 515.
+al.pdf  used on input line 539.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf, id=270, 187
+<posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf, id=267, 187
 .70125pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf Graphic
  file (type pdf)
 <use posterior_parent_quantile_TEs_consumerdurables_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_0_lo
-gnormal.pdf  used on input line 516.
+gnormal.pdf  used on input line 540.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf, id=271, 187
+<posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf, id=268, 187
 .70125pt x 172.645pt>
 File: posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf Graphic
  file (type pdf)
 <use posterior_parent_quantile_TEs_consumerdurables_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_consumerdurables_pb_1_lo
-gnormal.pdf  used on input line 517.
+gnormal.pdf  used on input line 541.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf, id=272, 187.70125
+<posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf, id=269, 187.70125
 pt x 172.645pt>
 File: posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf Graphic file 
 (type pdf)
 <use posterior_parent_quantile_TEs_temptation_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_0_lognorma
-l.pdf  used on input line 518.
+l.pdf  used on input line 542.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf, id=273, 187.70125
+<posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf, id=270, 187.70125
 pt x 172.645pt>
 File: posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf Graphic file 
 (type pdf)
 <use posterior_parent_quantile_TEs_temptation_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_temptation_pb_1_lognorma
-l.pdf  used on input line 519.
+l.pdf  used on input line 543.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
 
-LaTeX Warning: Float too large for page by 27.32301pt on input line 521.
+LaTeX Warning: Float too large for page by 27.32301pt on input line 545.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf, id=274, 187.70125pt x
+<posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf, id=271, 187.70125pt x
  172.645pt>
 File: posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf Graphic file (typ
 e pdf)
 <use posterior_parent_quantile_TEs_profit_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_0_lognormal.pd
-f  used on input line 529.
+f  used on input line 553.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf, id=275, 187.70125pt x
+<posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf, id=272, 187.70125pt x
  172.645pt>
 File: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf Graphic file (typ
 e pdf)
 <use posterior_parent_quantile_TEs_profit_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_profit_pb_1_lognormal.pd
-f  used on input line 530.
+f  used on input line 554.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf, id=276, 187.70125pt
+<posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf, id=273, 187.70125pt
  x 172.645pt>
 File: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf Graphic file (t
 ype pdf)
 <use posterior_parent_quantile_TEs_revenues_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_0_lognormal.
-pdf  used on input line 531.
+pdf  used on input line 555.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf, id=277, 187.70125pt
+<posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf, id=274, 187.70125pt
  x 172.645pt>
 File: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf Graphic file (t
 ype pdf)
 <use posterior_parent_quantile_TEs_revenues_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_revenues_pb_1_lognormal.
-pdf  used on input line 532.
+pdf  used on input line 556.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf, id=278, 187.701
+<posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf, id=275, 187.701
 25pt x 172.645pt>
 File: posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf Graphic fil
 e (type pdf)
 <use posterior_parent_quantile_TEs_expenditures_pb_0_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_0_lognor
-mal.pdf  used on input line 533.
+mal.pdf  used on input line 557.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
-<posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf, id=279, 187.701
+<posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf, id=276, 187.701
 25pt x 172.645pt>
 File: posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf Graphic fil
 e (type pdf)
 <use posterior_parent_quantile_TEs_expenditures_pb_1_lognormal.pdf>
 Package pdftex.def Info: posterior_parent_quantile_TEs_expenditures_pb_1_lognor
-mal.pdf  used on input line 534.
+mal.pdf  used on input line 558.
 (pdftex.def)             Requested size: 187.70079pt x 172.64456pt.
 
-LaTeX Warning: Float too large for page by 39.87857pt on input line 536.
+LaTeX Warning: Float too large for page by 39.87857pt on input line 560.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -578,13 +578,13 @@ b_1_lognormal.pdf> <./posterior_parent_quantile_TEs_expenditures_pb_0_lognormal
 
 
 ]
-Underfull \hbox (badness 6032) in paragraph at lines 604--605
+Underfull \hbox (badness 6032) in paragraph at lines 628--629
 [] \OT1/cmr/bx/n/10.95 Castel-lacci, Giuseppe. \OT1/cmr/m/n/10.95 2012. "A For-
 mula for the Quan-tiles of
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 604--605
+Underfull \hbox (badness 2158) in paragraph at lines 628--629
 \OT1/cmr/m/n/10.95 Mix-tures of Dis-tri-bu-tions with Dis-joint Sup-ports". Ava
 il-able at SSRN:
  []
@@ -596,13 +596,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-Underfull \hbox (badness 3861) in paragraph at lines 636--637
+Underfull \hbox (badness 3861) in paragraph at lines 660--661
 [] \OT1/cmr/bx/n/10.95 Gabaix, Xavier. \OT1/cmr/m/n/10.95 2008. "Power Laws in 
 Eco-nomics and Fi-nance"
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 636--637
+Underfull \hbox (badness 2753) in paragraph at lines 660--661
 \OT1/cmr/m/n/10.95 NBER Work-ing Pa-per No. 14299, ac-cessed on-line Au-gust 12
 th 2016,
  []
@@ -620,40 +620,37 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2252 strings out of 480608
- 39775 string characters out of 5903631
- 282079 words of memory out of 5000000
- 18119 multiletter control sequences out of 15000+600000
- 541252 words of font info for 56 fonts, out of 8000000 for 9000
+ 2248 strings out of 480608
+ 39739 string characters out of 5903631
+ 288079 words of memory out of 5000000
+ 18117 multiletter control sequences out of 15000+600000
+ 540644 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,29p,2724b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,29p,2724b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/rachaelmeager/Library/texlive/2020/texmf-var/fonts/pk/ljfour/public/
 bbm/bbm10.657pk>{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+m/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
 Output written on AER-Article-Meager-Aggregating-Distributional-Effects.pdf (35
- pages, 474971 bytes).
+ pages, 433851 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
+ 471 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

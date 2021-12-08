@@ -34,56 +34,16 @@ partial_pooling_beta_1 <- cbind(c("Average", "Average"), partial_pooling_beta_1)
 colnames(partial_pooling_beta_1)[1] <- "Country"
 profit_table <- rbind(no_pooling_profit, partial_pooling_profit,partial_pooling_beta_1,full_pooling_beta_1, fill = TRUE)
 
+profit_table_cut <- profit_table[,-c("15th", "85th")]
+
 sink("output/table_profit_all.txt")
-stargazer(profit_table, summary = FALSE)
+stargazer(profit_table_cut, summary = FALSE)
 dev.off
 
 
 
-t_no_pooling_profit <- t(no_pooling_profit)
-for(i in 1:13){
-  if((i %% 2) != 0){ t_no_pooling_profit[i,] <- paste(t_no_pooling_profit[i,], t_no_pooling_profit[i+1,]) }
-}
 
-profit_table_transposed <- rbind( cbind(t(no_pooling_profit), t(full_pooling_beta_1)), 
-                                  cbind(t(partial_pooling_profit), t(partial_pooling_beta_1)))
-profit_table_transposed <- as.data.frame(profit_table_transposed)
-
-
-profit_partial_pooling_cat <- data.frame(paste0(partial_pooling_profit[1], partial_pooling_profit[2]),
-                    paste0(partial_pooling_profit[3], partial_pooling_profit[4]),
-                    paste0(partial_pooling_profit[5], partial_pooling_profit[6]),
-                    paste0(partial_pooling_profit[7], partial_pooling_profit[8]),
-                    paste0(partial_pooling_profit[9], partial_pooling_profit[10]),
-                    paste0(partial_pooling_profit[11], partial_pooling_profit[12]),
-                    paste0(partial_pooling_profit[13], partial_pooling_profit[14]), 
-                    paste0(partial_pooling_beta_1[1], partial_pooling_beta_1[2])
-                    )
-
-profit_naive_pooling_cat <- data.frame(paste0(no_pooling_profit[1], no_pooling_profit[2]),
-                                         paste0(no_pooling_profit[3], no_pooling_profit[4]),
-                                         paste0(no_pooling_profit[5], no_pooling_profit[6]),
-                                         paste0(no_pooling_profit[7], no_pooling_profit[8]),
-                                         paste0(no_pooling_profit[9], no_pooling_profit[10]),
-                                         paste0(no_pooling_profit[11], no_pooling_profit[12]),
-                                         paste0(no_pooling_profit[13], no_pooling_profit[14]), 
-                                         paste0(full_pooling_beta_1[1], full_pooling_beta_1[2])
-)
-colnames(profit_naive_pooling_cat) <- c("Bosnia", "Ethiopia", "India", "Mexico", "Mongolia", "Morrocco",
-                                        "Philippines", "Average")
-colnames(profit_partial_pooling_cat) <- c("Bosnia", "Ethiopia", "India", "Mexico", "Mongolia", "Morrocco",
-                                        "Philippines", "Average")
-rowlabeller <- c("Model", "5th", "15th", "25th", "35th", "45th", "55th", "65th", "75th", "85th", "95th") 
-
-profit_table_transposed_cat <- rbind( profit_naive_pooling_cat, profit_partial_pooling_cat)
-profit_table_transposed_cat <- cbind(rep(rowlabeller,2), profit_table_transposed_cat)
-
-sink("output/table_profit_transposed_all.txt")
-stargazer(profit_table_transposed_cat, summary = FALSE, rownames = NULL)
-dev.off
-
-
-### COSUMPTION ###
+### CONSUMPTION ###
 load("output/microcredit_consumption_lognormal_tailored_hierarchical_pdf_output_5000_iters.RData")
 stan_fit_table_consumption <- stan_fit_table
 stan_fit_consumption <- stan_fit
@@ -373,8 +333,10 @@ colnames(full_pooling_results_consumption) <- c( "Country", "5th", "15th", "25th
 
 
 consumption_table <- rbind(no_pooling_results_consumption, partial_pooling_results_consumption, full_pooling_results_consumption)
+
+consumption_table_cut <- consumption_table[,-c("15th", "85th")]
 sink("output/table_consumption_all.txt")
-stargazer(consumption_table, summary = FALSE)
+stargazer(consumption_table_cut, summary = FALSE)
 dev.off
 
 
