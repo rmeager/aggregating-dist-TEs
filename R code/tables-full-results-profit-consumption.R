@@ -38,6 +38,12 @@ sink("output/table_profit_all.txt")
 stargazer(profit_table, summary = FALSE)
 dev.off
 
+profit_table_transposed <- rbind( cbind(t(no_pooling_profit), t(full_pooling_beta_1)), 
+                                  cbind(t(partial_pooling_profit), t(partial_pooling_beta_1)))
+sink("output/table_profit_transposed_all.txt")
+stargazer(profit_table_transposed, summary = FALSE)
+dev.off
+
 
 ### COSUMPTION ###
 load("output/microcredit_consumption_lognormal_tailored_hierarchical_pdf_output_5000_iters.RData")
